@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Custom styles converted to Tailwind v4 compatible utilities */
+.slider-btn {
+  @apply absolute top-1/2 transform -translate-y-1/2 bg-black/50 text-white border-none cursor-pointer p-4 text-lg rounded-full outline-none z-10;
+}
+
+.slider-btn:hover {
+  @apply bg-black/80;
+}
+
+.slide {
+  @apply absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-500 bg-center bg-contain bg-no-repeat;
+}
+
+.slide.active {
+  @apply opacity-100;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s forwards;
+}
