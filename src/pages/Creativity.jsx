@@ -1,26 +1,31 @@
-import { useState } from 'react'
-import SearchSection from '../components/SearchSection'
-import CampCards from '../components/CampCards'
+import { useState } from 'react';
+import InstitutionCard from '../components/InstitutionCard';
+import SearchSection from '../components/SearchSection';
 
-const Creativity = () => {
-  const [searchFilters, setSearchFilters] = useState({})
+const Music = () => {
+  const [results, setResults] = useState([]);
 
   const handleSearch = (filters) => {
-    setSearchFilters(filters)
-  }
+    // call API with filters + category=music
+    setResults([
+      /* mock items */
+    ]);
+  };
 
   return (
-    <div>
-      <div className="bg-gradient-to-r from-yellow-500 to-orange-600 text-white py-16">
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">Creative Arts Summer Camps</h1>
-          <p className="text-xl">Unleash your imagination through arts, crafts, and creative expression</p>
-        </div>
-      </div>
+    <main className="container mx-auto px-4 py-10 space-y-10">
+      <h1 className="text-3xl font-bold">Music Schools</h1>
       <SearchSection onSearch={handleSearch} />
-      <CampCards filters={searchFilters} categoryFilter="Creativity" />
-    </div>
-  )
-}
 
-export default Creativity
+      {!!results.length && (
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {results.map((inst) => (
+            <InstitutionCard inst={inst} key={inst.id} />
+          ))}
+        </div>
+      )}
+    </main>
+  );
+};
+
+export default Music;

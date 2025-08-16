@@ -1,55 +1,68 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 const SearchSection = ({ onSearch }) => {
-  const [selectedActivity, setSelectedActivity] = useState('')
-  const [selectedLocation, setSelectedLocation] = useState('')
+  const [query, setQuery] = useState('');
+  const [category, setCategory] = useState('');
+  const [location, setLocation] = useState('');
 
-  const handleSearch = () => {
-    onSearch({ activity: selectedActivity, location: selectedLocation })
-  }
+  const submit = (e) => {
+    e.preventDefault();
+    onSearch({ query, category, location });
+  };
+
+  const clear = () => {
+    setQuery('');
+    setCategory('');
+    setLocation('');
+    onSearch({ query: '', category: '', location: '' });
+  };
 
   return (
-    <section className="py-8 flex justify-center">
-      <div className="flex gap-2 items-center flex-wrap">
-        <select 
-          value={selectedActivity}
-          onChange={(e) => setSelectedActivity(e.target.value)}
-          className="flex-1 min-w-36 max-w-48 p-3 border border-red-600 rounded text-base"
-        >
-          <option value="">All Activities</option>
-          <option value="Badminton">Badminton</option>
-          <option value="Football">Football</option>
-          <option value="Basketball">Basketball</option>
-          <option value="Skating">Skating</option>
-          <option value="Cricket">Cricket</option>
-          <option value="Dance">Dance</option>
-          <option value="Multiple">Multiple-Activities</option>
-          <option value="Music">Music</option>
-          <option value="Swimming">Swimming</option>
-          <option value="Adventure">Adventure</option>
-          <option value="Education">Education</option>
-          <option value="Athletics">Athletics</option>
-          <option value="Art">Art</option>
-          <option value="Fitness">Fitness</option>
-        </select>
-        
-        <select 
-          value={selectedLocation}
-          onChange={(e) => setSelectedLocation(e.target.value)}
-          className="flex-1 min-w-36 max-w-48 p-3 border border-red-600 rounded text-base"
-        >
-          <option value="">All Locations</option>
-        </select>
-        
-        <button 
-          onClick={handleSearch}
-          className="bg-red-600 text-black border-none py-3 px-8 rounded cursor-pointer transition-colors hover:bg-red-700 font-roboto text-xl whitespace-nowrap"
-        >
-          Search Camps
-        </button>
-      </div>
-    </section>
-  )
-}
+    <div className="bg-white shadow rounded-lg p-6">
+      <form onSubmit={submit} className="flex flex-col md:flex-row gap-4">
+        <input
+          type="text"
+          placeholder="Search institution or course"
+          className="flex-grow border rounded-md px-4 py-2"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
 
-export default SearchSection
+        <select
+          className="border rounded-md px-4 py-2"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        >
+          <option value="">All Categories</option>
+          <option value="music">Music</option>
+          <option value="art">Art</option>
+          <option value="tuition">Tuition</option>
+          <option value="dance">Dance</option>
+        </select>
+
+        <input
+          type="text"
+          placeholder="City / Area"
+          className="border rounded-md px-4 py-2"
+          value={location}
+          onChange={(e) => setLocation(e.target.value)}
+        />
+
+        <div className="flex gap-2">
+          <button className="bg-blue-600 text-white px-6 py-2 rounded-md">
+            Search
+          </button>
+          <button
+            type="button"
+            onClick={clear}
+            className="bg-gray-500 text-white px-4 py-2 rounded-md"
+          >
+            Clear
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+};
+
+export default SearchSection;

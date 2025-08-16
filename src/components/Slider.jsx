@@ -7,9 +7,6 @@ const Slider = () => {
     '/banner/banner1.svg',
     '/banner/banner2.svg',
     '/banner/banner3.svg',
-    '/banner/LeoBanner1M.svg',
-    '/banner/Sports1PC.svg',
-    '/banner/aika.svg'
   ]
 
   const nextSlide = () => {

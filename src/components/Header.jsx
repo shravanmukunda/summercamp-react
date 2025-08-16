@@ -1,37 +1,38 @@
-import { useState } from 'react'
+import { Link, NavLink } from 'react-router-dom';
 
-const Header = () => {
-  const [selectedCity, setSelectedCity] = useState('Bangalore')
+const Header = () => (
+  <header className="bg-white shadow-sm">
+    <nav className="container mx-auto flex items-center justify-between py-4 px-4">
+      <Link to="/" className="text-2xl font-bold text-blue-600">
+        EduConnect
+      </Link>
 
-  return (
-    <header className="bg-white shadow-md py-2 w-full sticky top-0 z-50">
-      <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
-        <div className="flex justify-between items-center w-full">
-          {/* Logo */}
-          <div className="h-full">
-            <img 
-              src="/logo.svg" 
-              alt="My Summer Camp - Find Best Summer Camps in India" 
-              className="h-full w-auto cursor-pointer block"
-            />
-          </div>
-          
-          {/* Location Selector */}
-          <div className="flex items-center bg-white p-2 border-2 border-red-600 rounded-md cursor-pointer transition-all duration-200 hover:border-red-800 hover:bg-red-50">
-            <select 
-              value={selectedCity}
-              onChange={(e) => setSelectedCity(e.target.value)}
-              className="p-0 border-none bg-transparent text-base font-medium text-gray-800 cursor-pointer appearance-none pr-5 focus:outline-none"
-            >
-              <option value="Bangalore">Bangalore</option>
-              <option value="Mumbai">Mumbai</option>
-              <option value="Chennai">Chennai</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </header>
-  )
-}
+      <ul className="hidden md:flex gap-8 font-medium">
+        <NavLink to="/institutions" className="hover:text-blue-600">
+          Browse
+        </NavLink>
+        <NavLink to="/music" className="hover:text-blue-600">
+          Music
+        </NavLink>
+        <NavLink to="/art" className="hover:text-blue-600">
+          Art
+        </NavLink>
+        <NavLink to="/tuition" className="hover:text-blue-600">
+          Tuition
+        </NavLink>
+        <NavLink to="/contact" className="hover:text-blue-600">
+          Contact
+        </NavLink>
+      </ul>
 
-export default Header
+      <Link
+        to="/add-institution"
+        className="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
+      >
+        List Your Institute
+      </Link>
+    </nav>
+  </header>
+);
+
+export default Header;

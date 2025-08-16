@@ -1,26 +1,31 @@
-import { useState } from 'react'
-import SearchSection from '../components/SearchSection'
-import CampCards from '../components/CampCards'
+// example: src/pages/Music.jsx
+import { useState } from 'react';
+import InstitutionCard from '../components/InstitutionCard';
+import SearchSection from '../components/SearchSection';
 
 const Music = () => {
-  const [searchFilters, setSearchFilters] = useState({})
+  const [results, setResults] = useState([]);
 
-  const handleSearch = (filters) => {
-    setSearchFilters(filters)
-  }
+  const handleSearch = ({ query, location }) => {
+    // TODO: fetch real data
+    setResults([]);
+  };
 
   return (
-    <div>
-      <div className="bg-gradient-to-r from-indigo-500 to-blue-600 text-white py-16">
-        <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">Music Summer Camps</h1>
-          <p className="text-xl">Discover your musical talents and create beautiful melodies</p>
-        </div>
-      </div>
-      <SearchSection onSearch={handleSearch} />
-      <CampCards filters={searchFilters} categoryFilter="Music" />
-    </div>
-  )
-}
+    <main className="container mx-auto px-4 py-10 space-y-10">
+      <h1 className="text-3xl font-bold">Music Schools</h1>
 
-export default Music
+      <SearchSection onSearch={handleSearch} />
+
+      {!!results.length && (
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {results.map(inst => (
+            <InstitutionCard key={inst.id} inst={inst} />
+          ))}
+        </div>
+      )}
+    </main>
+  );
+};
+
+export default Music;
