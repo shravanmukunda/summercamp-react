@@ -1,0 +1,154 @@
+{
+    "id": 2,
+    "name": "Artistic Minds Studio",
+    "type": "Art Academy",
+    "category": "art",
+    "tagline": "Unleash Your Creative Potential",
+    "rating": 4.3,
+    "reviewCount": 67,
+    "heroImage": "/images/institutions/art-banner.jpg",
+    "gallery": [
+      "/images/institutions/art-gallery-1.jpg",
+      "/images/institutions/art-gallery-2.jpg",
+      "/images/institutions/art-gallery-3.jpg",
+      "/images/institutions/art-gallery-4.jpg"
+    ],
+    "description": "Artistic Minds Studio is a premier art academy in Bangalore offering comprehensive courses in fine arts, digital art, and creative design. We nurture artistic talent through structured learning and creative exploration.",
+    "established": "2018",
+    "totalStudents": "300+",
+    "totalInstructors": "8",
+    "maxBatchSize": 12,
+    "contact": {
+      "address": "45 Brigade Road, Bangalore, Karnataka 560025",
+      "phone": "+91 87654 32109",
+      "email": "info@artisticminds.in",
+      "website": "www.artisticminds.in"
+    },
+    "location": {
+      "city": "Bangalore",
+      "area": "Brigade Road",
+      "coordinates": [12.9719, 77.6103]
+    },
+    "timing": {
+      "weekdays": "10:00 AM - 7:00 PM",
+      "weekends": "10:00 AM - 5:00 PM",
+      "closed": "Mondays"
+    },
+    "highlights": [
+      "Professional art supplies included",
+      "Regular art exhibitions and competitions",
+      "Digital art lab with latest tablets",
+      "Portfolio development guidance",
+      "Career counseling for art students",
+      "Small batch sizes for personalized attention"
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "title": "Watercolor Painting",
+        "description": "Learn watercolor techniques, color theory, and landscape painting.",
+        "duration": "2 months",
+        "fee": 6000,
+        "ageGroup": "8+ years",
+        "batchSize": "Max 8 students",
+        "schedule": "Sat, Sun - 10:00 AM to 12:00 PM",
+        "level": "Beginner",
+        "batches": ["Weekend Morning", "Weekend Afternoon"]
+      },
+      {
+        "id": 2,
+        "title": "Digital Art & Design",
+        "description": "Master digital illustration, graphic design using professional software.",
+        "duration": "3 months",
+        "fee": 9000,
+        "ageGroup": "12+ years",
+        "batchSize": "Max 6 students",
+        "schedule": "Mon, Wed, Fri - 3:00 PM to 5:00 PM",
+        "level": "Intermediate",
+        "batches": ["Afternoon Batch", "Evening Batch"]
+      },
+      {
+        "id": 3,
+        "title": "Oil Painting",
+        "description": "Classical oil painting techniques, portrait and still life painting.",
+        "duration": "4 months",
+        "fee": 12000,
+        "ageGroup": "16+ years",
+        "batchSize": "Max 6 students",
+        "schedule": "Tue, Thu - 4:00 PM to 6:00 PM",
+        "level": "Advanced",
+        "batches": ["Evening Batch", "Weekend Batch"]
+      }
+    ],
+    "instructors": [
+      {
+        "name": "Maya Patel",
+        "specialization": "Fine Arts & Traditional Painting",
+        "experience": "12 years",
+        "qualification": "MFA from Chitrakala Parishath, Bangalore",
+        "image": "/images/faculty/maya-patel.jpg",
+        "bio": "Maya is a renowned artist whose works have been displayed in galleries across India."
+      },
+      {
+        "name": "Rohan Sharma",
+        "specialization": "Digital Art & Graphic Design",
+        "experience": "8 years",
+        "qualification": "Bachelor's in Graphic Design, Adobe Certified Expert",
+        "image": "/images/faculty/rohan-sharma.jpg",
+        "bio": "Rohan has worked with leading design agencies and freelances for international clients."
+      }
+    ],
+    "facilities": [
+      {
+        "name": "Natural Light Studios",
+        "description": "Large studios with optimal natural lighting for painting",
+        "icon": "🎨"
+      },
+      {
+        "name": "Digital Art Lab",
+        "description": "10 Wacom tablets with latest design software",
+        "icon": "💻"
+      },
+      {
+        "name": "Art Supply Store",
+        "description": "On-site store for all art materials and supplies",
+        "icon": "🖌️"
+      },
+      {
+        "name": "Exhibition Gallery",
+        "description": "Display space for student artwork and exhibitions",
+        "icon": "🖼️"
+      }
+    ],
+    "achievements": [
+      "Student artworks displayed in city exhibitions",
+      "Recognized by Karnataka Art Council",
+      "Best Art Studio - Bangalore Times 2022",
+      "50+ students admitted to art colleges"
+    ],
+    "testimonials": [
+      {
+        "studentName": "Ravi Kumar",
+        "relation": "Parent",
+        "rating": 4,
+        "comment": "Great environment for kids to explore their creativity. Maya ma'am is very encouraging and patient.",
+        "course": "Watercolor",
+        "date": "2024-11-10"
+      }
+    ],
+    "policies": {
+      "cancellation": "48 hours advance notice required",
+      "makeup": "2 makeup classes per month allowed",
+      "payment": "Monthly advance payment required",
+      "trial": "Free trial class available"
+    },
+    "certifications": ["Karnataka Art Council", "Chitrakala Parishath Affiliated"],
+    "ratingBreakdown": {
+      "5": 30,
+      "4": 25,
+      "3": 10,
+      "2": 2,
+      "1": 0
+    }
+  }
+  

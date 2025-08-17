@@ -6,9 +6,6 @@ import Footer from './components/Footer';
 // pages
 import Home from './pages/Home';
 import Music from './pages/Music';
-import Creativity from './pages/Creativity';   // art
-import Dance from './pages/Dance';
-import Education from './pages/Education';     // tuition
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import InstitutionDetailPage from './pages/InstitutionDetailPage';
@@ -25,9 +22,6 @@ function App() {
 
             {/* category routes */}
             <Route path="/music" element={<Music />} />
-            <Route path="/art" element={<Creativity />} />
-            <Route path="/dance" element={<Dance />} />
-            <Route path="/tuition" element={<Education />} />
 
             {/* dynamic institution detail */}
             <Route path="/institution/:id" element={<InstitutionDetailPage />} />
