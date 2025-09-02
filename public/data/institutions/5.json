@@ -1,0 +1,62 @@
+{
+  "id": 5,
+  "name": "Leo Sports",
+  "type": "Sports Club",
+  "category": "badminton",
+  "tagline": "Play. Practice. Perfect.",
+  "rating": 3.9,
+  "reviewCount": 187,
+  "heroImage": "/images/institutions/leo-banner.jpg",
+  "gallery": [
+    "/images/institutions/leo-gallery-1.jpg",
+    "/images/institutions/leo-gallery-2.jpg",
+    "/images/institutions/leo-gallery-3.jpg"
+  ],
+  "description": "Leo Sports offers indoor badminton and snooker facilities in Mahadevapura, Bangalore. They cater to both hobbyists and competitive players.",
+  "established": "2015",
+  "totalStudents": "N/A",
+  "totalInstructors": "N/A",
+  "maxBatchSize": "N/A",
+  "contact": {
+    "address": "Shivganga Layout, Outer Ring Road, Mahadevapura, Bangalore - 560048",
+    "phone": "Not listed",
+    "email": "Not available",
+    "website": "Not available"
+  },
+  "location": {
+    "city": "Bangalore",
+    "area": "Mahadevapura",
+    "coordinates": [12.9784, 77.6491]
+  },
+  "timing": {
+    "weekdays": "5:00 AM - 10:00 PM",
+    "weekends": "5:00 AM – 10:00 PM",
+    "closed": "None"
+  },
+  "highlights": [
+    "Indoor badminton courts",
+    "Snooker tables",
+    "Open early mornings and late evenings"
+  ],
+  "courses": [],
+  "instructors": [],
+  "facilities": [
+    { "name": "Badminton Courts", "description": "Indoor bookable courts", "icon": "🏸" },
+    { "name": "Snooker", "description": "Full-size snooker tables", "icon": "🎱" }
+  ],
+  "achievements": [
+    "Venue for Namma Badminton Series",
+    "Hosted Level-Up Badminton Tournament"
+  ],
+  "policies": {
+    "cancellation": "As per venue terms",
+    "makeup": "Not specified",
+    "payment": "Per booking basis",
+    "trial": "Not specified",
+    "attendance": "N/A"
+  },
+  "certifications": [],
+  "ratingBreakdown": {},
+  "socialMedia": {},
+  "awards": []
+}

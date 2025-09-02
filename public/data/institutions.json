@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id": 8,
       "name": "Galaxy Tuition",
       "type": "Music Academy",
       "category": "music",
@@ -63,6 +63,86 @@
       "image": "/images/institutions/sports-banner.jpg",
       "tagline": "Champions are Made Here",
       "startingPrice": 8500
+    },
+    {
+      "id": 6,
+      "name": "leo Champions Academy",
+      "type": "Sports Academy",
+      "category": "sports",
+      "city": "Chennai",
+      "area": "T. Nagar",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/images/institutions/sports-banner.jpg",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 8500
+    },
+    {
+      "id": 6,
+      "name": "Karnata Badminton Association",
+      "type": "Sports Academy",
+      "category": "sports",
+      "city": "Chennai",
+      "area": "T. Nagar",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/images/institutions/sports-banner.jpg",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 8500
+    },
+    {
+      "id": 7,
+      "name": "A2V Badminton academy",
+      "type": "Sports Academy",
+      "category": "sports",
+      "city": "Chennai",
+      "area": "T. Nagar",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/images/institutions/sports-banner.jpg",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 8500
+    },
+    {
+      "id": 8,
+      "name": "Vajpayee Sports club",
+      "type": "Sports Academy",
+      "category": "sports",
+      "city": "Chennai",
+      "area": "T. Nagar",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/images/institutions/sports-banner.jpg",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 8500
+    },
+    {
+      "id": 9,
+      "name": "Nagarbhavi sports arena",
+      "type": "Sports Academy",
+      "category": "sports",
+      "city": "Chennai",
+      "area": "T. Nagar",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/images/institutions/sports-banner.jpg",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 8500
+    },
+    {
+      "id": 10,
+      "name": "National Cricket Academy",
+      "type": "Sports Academy",
+      "category": "sports",
+      "city": "Chennai",
+      "area": "T. Nagar",
+      "rating": 4.5,
+      "reviewCount": 73,
+      "image": "/images/institutions/sports-banner.jpg",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 8500
     }
+
+
   ]
   

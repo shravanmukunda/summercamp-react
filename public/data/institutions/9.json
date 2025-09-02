@@ -1,0 +1,78 @@
+{
+    "id": 9,
+    "name": "Nagarbhavi Sports Arena",
+    "type": "Sports Facility",
+    "category": "badminton",
+    "tagline": "Book, Play & Improve",
+    "rating": 4.9,
+    "reviewCount": 30,
+    "heroImage": "/images/institutions/nagarbhavi-arena-banner.jpg",
+    "gallery": [
+      "/images/institutions/nagarbhavi-arena-gallery-1.jpg",
+      "/images/institutions/nagarbhavi-arena-gallery-2.jpg",
+      "/images/institutions/nagarbhavi-arena-gallery-3.jpg",
+      "/images/institutions/nagarbhavi-arena-gallery-4.jpg",
+      "/images/institutions/nagarbhavi-arena-gallery-5.jpg",
+      "/images/institutions/nagarbhavi-arena-gallery-6.jpg"
+    ],
+    "description": "Nagarbhavi Sports Arena on Kuvempu Road is a premium indoor badminton venue. Open from 5 AM to 11 PM, it offers easy court booking, equipment rental, and modern amenities ideal for casual players, enthusiasts, and small groups.",
+    "established": "",
+    "totalStudents": "",
+    "totalInstructors": "",
+    "maxBatchSize": "4 players per court",
+    "contact": {
+      "address": "#13/13, Gidadakonenahalli, Kuvempu Road, Off Muddinpalya Road, Sir MV Layout Block 8, Annapurneshwari Nagar, Nagarbhavi, Bangalore 560091",
+      "phone": "",
+      "email": "",
+      "website": ""
+    },
+    "location": {
+      "city": "Bangalore",
+      "area": "Nagarbhavi",
+      "coordinates": [12.9760, 77.5410]
+    },
+    "timing": {
+      "weekdays": "5:00 AM – 11:00 PM",
+      "weekends": "5:00 AM – 11:00 PM",
+      "closed": ""
+    },
+    "highlights": [
+      "Long operating hours (5 AM to 11 PM)",
+      "Equipment rental (rackets & shoes)",
+      "Strict no barefoot & sock policy",
+      "Indoor courts with booking flexibility",
+      "Clean amenities: Parking, First-Aid, Changing Rooms, Showers"
+    ],
+    "courses": [],
+    "instructors": [],
+    "facilities": [
+      {
+        "name": "Badminton Courts",
+        "description": "Indoor bookable courts—max 4 players per court",
+        "icon": "🏸"
+      },
+      {
+        "name": "Equipment Rental",
+        "description": "Rackets & shoes available; sending own socks required",
+        "icon": "🎾"
+      },
+      {
+        "name": "Amenities",
+        "description": "On-site parking, first-aid, changing rooms, showers, drinking water",
+        "icon": "🚻"
+      }
+    ],
+    "achievements": [],
+    "policies": {
+      "cancellation": "",
+      "makeup": "",
+      "payment": "Pay per court booking",
+      "trial": "",
+      "attendance": ""
+    },
+    "certifications": [],
+    "ratingBreakdown": {},
+    "socialMedia": {},
+    "awards": []
+  }
+  

@@ -1,0 +1,77 @@
+{
+    "id": 7,
+    "name": "A2V Badminton Academy",
+    "type": "Sports Facility",
+    "category": "badminton",
+    "tagline": "Play, Practice & Perfect",
+    "rating": 4.6,
+    "reviewCount": 54,
+    "heroImage": "/images/institutions/a2v-banner.jpg",
+    "gallery": [
+      "/images/institutions/a2v-gallery-1.jpg",
+      "/images/institutions/a2v-gallery-2.jpg",
+      "/images/institutions/a2v-gallery-3.jpg",
+      "/images/institutions/a2v-gallery-4.jpg",
+      "/images/institutions/a2v-gallery-5.jpg",
+      "/images/institutions/a2v-gallery-6.jpg"
+    ],
+    "description": "A2V Badminton Academy offers indoor badminton courts in Rajajinagar, Bengaluru. Located on the 5th floor of Bindu Galaxy, it provides a safe and flexible play environment with rental gear, changing rooms, and easy court booking for players of all levels.",
+    "established": "",
+    "totalStudents": "",
+    "totalInstructors": "",
+    "maxBatchSize": "4 per court booking",
+    "contact": {
+      "address": "No. 2, 5th Floor, Bindu Galaxy, 1st Main Industrial Town, West of Chord Road, Rajajinagar, Bangalore 560079",
+      "phone": "",
+      "email": "a2v2024academy@gmail.com",
+      "website": ""
+    },
+    "location": {
+      "city": "Bangalore",
+      "area": "Rajajinagar",
+      "coordinates": [12.9995, 77.5560]
+    },
+    "timing": {
+      "weekdays": "6:00 AM - 12:00 AM",
+      "weekends": "6:00 AM - 12:00 AM",
+      "closed": ""
+    },
+    "highlights": [
+      "Indoor badminton courts available until midnight",
+      "Equipment (rackets & shoes) available for rent",
+      "Parking and changing room facilities present",
+      "Strict non-marking shoes and sock policy"
+    ],
+    "courses": [],
+    "instructors": [],
+    "facilities": [
+      {
+        "name": "Badminton Courts",
+        "description": "Indoor bookable badminton courts (max 4 players per court)",
+        "icon": "🏸"
+      },
+      {
+        "name": "Gear Rental",
+        "description": "Rackets and shoes available on rent; socks mandatory with rented shoes",
+        "icon": "🎾"
+      },
+      {
+        "name": "Parking & Changing Rooms",
+        "description": "Facilities for changing and vehicle parking available",
+        "icon": "🚻"
+      }
+    ],
+    "achievements": [],
+    "policies": {
+      "cancellation": "",
+      "makeup": "",
+      "payment": "Per booking basis",
+      "trial": "",
+      "attendance": ""
+    },
+    "certifications": [],
+    "ratingBreakdown": {},
+    "socialMedia": {},
+    "awards": []
+  }
+  

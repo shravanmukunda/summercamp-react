@@ -1,0 +1,145 @@
+{
+    "id": 6,
+    "name": "Karnataka Badminton Association (KBA)",
+    "type": "Sports Association & Coaching Centre",
+    "category": "badminton",
+    "tagline": "Home of Competitive Badminton in Karnataka",
+    "rating": 4.2,
+    "reviewCount": 150,
+    "heroImage": "/images/institutions/kba-banner.jpg",
+    "gallery": [
+      "/images/institutions/kba-gallery-1.jpg",
+      "/images/institutions/kba-gallery-2.jpg",
+      "/images/institutions/kba-gallery-3.jpg",
+      "/images/institutions/kba-gallery-4.jpg",
+      "/images/institutions/kba-gallery-5.jpg",
+      "/images/institutions/kba-gallery-6.jpg"
+    ],
+    "description": "Karnataka Badminton Association (KBA) is the state’s premier badminton body and training centre in Vasanth Nagar, Bengaluru. The stadium hosts 10 permanent courts (5 Hova synthetic and 5 wooden), regular state/national ranking tournaments, and structured coaching programs run with the Padukone School of Badminton under chief coach Anup Sridhar.",
+    "established": "1951",
+    "totalStudents": "1600+ members",
+    "totalInstructors": "10+",
+    "maxBatchSize": 12,
+    "contact": {
+      "address": "No.4, Jasma Bhavan Road, Vasantha Nagar, Miller Tank Bed Area, Bengaluru, Karnataka 560052",
+      "phone": "+91 80 4278 8888, +91 96322 99992",
+      "email": "info@kba.org.in",
+      "website": "kba.org.in"
+    },
+    "location": {
+      "city": "Bangalore",
+      "area": "Vasanth Nagar",
+      "coordinates": [12.988721, 77.585169]
+    },
+    "timing": {
+      "weekdays": "6:00 AM - 10:30 PM",
+      "weekends": "6:00 AM - 10:30 PM",
+      "closed": "—"
+    },
+    "highlights": [
+      "10 international-standard courts (5 Hova synthetic, 5 wooden)",
+      "Coaching from beginner to professional levels",
+      "Programs with Padukone School of Badminton",
+      "Regular state & national ranking tournaments",
+      "Lockers, changing rooms, cafeteria & parking",
+      "Central Bengaluru location with good transit access"
+    ],
+"courses": [
+      {
+        "id": 1,
+        "title": "Piano (Beginner)",
+        "description": "Learn piano fundamentals with classical and contemporary pieces. Perfect for absolute beginners.",
+        "duration": "3 months",
+        "fee": 8000,
+        "ageGroup": "6-12 years",
+        "batchSize": "1-on-1",
+        "schedule": "Mon, Wed, Fri - 4:00 PM to 5:00 PM",
+        "level": "Beginner",
+        "batches": ["Morning 9-10 AM", "Evening 4-5 PM", "Weekend 10-11 AM"]
+      },
+      {
+        "id": 2,
+        "title": "Guitar (Intermediate)",
+        "description": "Advanced guitar techniques including fingerpicking, chord progressions, and music theory.",
+        "duration": "4 months",
+        "fee": 9500,
+        "ageGroup": "12+ years",
+        "batchSize": "Max 4 students",
+        "schedule": "Tue, Thu, Sat - 5:00 PM to 6:30 PM",
+        "level": "Intermediate",
+        "batches": ["Evening 5-6:30 PM", "Weekend 2-3:30 PM"]
+      },
+      {
+        "id": 3,
+        "title": "Vocal Training",
+        "description": "Classical and western vocal training with breathing techniques and stage performance skills.",
+        "duration": "6 months",
+        "fee": 12000,
+        "ageGroup": "8+ years",
+        "batchSize": "1-on-1 or Max 3",
+        "schedule": "Flexible timing",
+        "level": "All levels",
+        "batches": ["Morning 10-11 AM", "Evening 6-7 PM", "Weekend flexible"]
+      },
+      {
+        "id": 4,
+        "title": "Drums",
+        "description": "Learn percussion fundamentals, rhythm patterns, and coordination techniques.",
+        "duration": "4 months",
+        "fee": 10000,
+        "ageGroup": "10+ years",
+        "batchSize": "1-on-1",
+        "schedule": "Wed, Sat - 3:00 PM to 4:00 PM",
+        "level": "Beginner to Advanced",
+        "batches": ["Afternoon 3-4 PM", "Evening 7-8 PM"]
+      }
+    ],
+    "facilities": [
+      {
+        "name": "Badminton Courts",
+        "description": "10 permanent courts (5 Hova synthetic, 5 wooden) with seating gallery",
+        "icon": "🏸"
+      },
+      {
+        "name": "Changing Rooms & Lockers",
+        "description": "Dedicated men’s and women’s facilities with lockers",
+        "icon": "🧼"
+      },
+      {
+        "name": "Cafeteria",
+        "description": "On-site refreshment options for players and parents",
+        "icon": "☕"
+      },
+      {
+        "name": "Parking",
+        "description": "On-premise parking for members and trainees",
+        "icon": "🅿️"
+      },
+      {
+        "name": "Swimming Pool",
+        "description": "Pool facility within KBA complex (timings as per association)",
+        "icon": "🏊"
+      }
+    ],
+    "achievements": [
+      "Hosts Karnataka state & national ranking badminton tournaments",
+      "Produces multiple state and national level players",
+      "Partnership with Padukone School of Badminton for coaching"
+    ],
+    "policies": {
+      "cancellation": "Court/coaching cancellations as per KBA rules",
+      "makeup": "Subject to coach & slot availability",
+      "payment": "Membership/court booking/coaching fees as per KBA schedule",
+      "trial": "Trials subject to program availability",
+      "attendance": "Adhere to program attendance & code of conduct"
+    },
+    "certifications": [
+      "State unit under Badminton Association of India"
+    ],
+    "ratingBreakdown": {},
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/karnatakabadminton/"
+    },
+    "awards": []
+  }
+  

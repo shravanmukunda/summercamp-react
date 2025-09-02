@@ -1,0 +1,73 @@
+{
+    "id": "vajpayee",
+    "name": "Vajpayee Sports Club",
+    "type": "Sports Club",
+    "category": "badminton",
+    "tagline": "Community Club & Badminton Venue",
+    "rating": 4.1,
+    "reviewCount": 81,
+    "heroImage": "/images/institutions/vajpayee-banner.jpg",
+    "gallery": [
+      "/images/institutions/vajpayee-gallery-1.jpg",
+      "/images/institutions/vajpayee-gallery-2.jpg",
+      "/images/institutions/vajpayee-gallery-3.jpg",
+      "/images/institutions/vajpayee-gallery-4.jpg",
+      "/images/institutions/vajpayee-gallery-5.jpg",
+      "/images/institutions/vajpayee-gallery-6.jpg"
+    ],
+    "description": "Vajpayee Sports Club is a local badminton and multi-sport community club in Rajajinagar, Bengaluru, located near Mariappanapalya Park. Primarily serving local players and tournaments, it’s a members-oriented venue with basic badminton facilities.",
+    "established": "",
+    "totalStudents": "",
+    "totalInstructors": "",
+    "maxBatchSize": "",
+    "contact": {
+      "address": "Mariappanapalya, Rajajinagar, Bengaluru, Karnataka 560010",
+      "phone": "",
+      "email": "",
+      "website": ""
+    },
+    "location": {
+      "city": "Bangalore",
+      "area": "Rajajinagar",
+      "coordinates": [12.99773, 77.55493]
+    },
+    "timing": {
+      "weekdays": "8:00 AM - 6:00 PM",
+      "weekends": "8:00 AM - 6:00 PM",
+      "closed": ""
+    },
+    "highlights": [
+      "Local community badminton venue",
+      "Used for organizing local/state-level tournaments (e.g., Vajpayee Memorial Cup)",
+      "Basic amenities: parking, washrooms, coaching available"
+    ],
+    "courses": [],
+    "instructors": [],
+    "facilities": [
+      {
+        "name": "Badminton Courts",
+        "description": "Indoor courts available for members and tournament play",
+        "icon": "🏸"
+      },
+      {
+        "name": "Parking & Washrooms",
+        "description": "Parking and washroom access available on site",
+        "icon": "🚻"
+      }
+    ],
+    "achievements": [
+      "Venue for Vajpayee Memorial Cup (state-level Badminton tournament)"
+    ],
+    "policies": {
+      "cancellation": "",
+      "makeup": "",
+      "payment": "",
+      "trial": "",
+      "attendance": ""
+    },
+    "certifications": [],
+    "ratingBreakdown": {},
+    "socialMedia": {},
+    "awards": []
+  }
+  
