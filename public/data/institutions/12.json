@@ -1,0 +1,150 @@
+{
+  "id": 1,
+  "name": "Somaiya Sports Academy",
+  "type": "Sports Academy",
+  "category": "sports",
+  "tagline": "Building Champions On and Off the Court",
+  "rating": 4.7,
+  "reviewCount": 112,
+  "heroImage": "/images/institutions/somaiya-basketball-banner.jpg",
+  "description": "Somaiya Sports Academy in Mumbai provides a vibrant basketball program for young athletes and adults. With professional coaches, structured training programs, and world-class indoor and outdoor courts, the academy nurtures talent and promotes fitness through the sport of basketball.",
+  "established": "2015",
+  "totalStudents": "400+",
+  "totalInstructors": "12",
+  "maxBatchSize": 20,
+  "contact": {
+    "address": "Somaiya Vidyavihar Campus, Vidyavihar East, Mumbai, Maharashtra 400077",
+    "phone": "+91 98234 56789",
+    "email": "basketball@somaiyasports.in",
+    "website": "www.somaiyasports.in"
+  },
+  "location": {
+    "city": "Mumbai",
+    "area": "Vidyavihar East",
+    "coordinates": [19.0735, 72.9009]
+  },
+  "timing": {
+    "weekdays": "6:00 AM - 9:00 PM",
+    "weekends": "7:00 AM - 8:00 PM",
+    "closed": "National Holidays"
+  },
+  "highlights": [
+    "Indoor and outdoor basketball courts",
+    "Certified coaches with international exposure",
+    "Youth development leagues and inter-school tournaments",
+    "Strength and conditioning sessions included",
+    "Video analysis and performance tracking",
+    "Girls-only batches available"
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Basketball Training",
+      "description": "Fundamental skills for kids including dribbling, shooting, and passing.",
+      "duration": "3 months",
+      "fee": 6000,
+      "ageGroup": "8-12 years",
+      "batchSize": "Max 15 players",
+      "schedule": "Mon, Wed, Fri - 5:00 PM to 6:30 PM",
+      "level": "Beginner",
+      "batches": ["Evening 5-6:30 PM", "Weekend 9-10:30 AM"]
+    },
+    {
+      "id": 2,
+      "title": "Intermediate Training Program",
+      "description": "Focus on advanced drills, teamwork, and game tactics.",
+      "duration": "4 months",
+      "fee": 8500,
+      "ageGroup": "12-18 years",
+      "batchSize": "Max 20 players",
+      "schedule": "Tue, Thu, Sat - 6:00 PM to 7:30 PM",
+      "level": "Intermediate",
+      "batches": ["Evening 6-7:30 PM"]
+    },
+    {
+      "id": 3,
+      "title": "Elite Training & League Prep",
+      "description": "High-intensity training for advanced players preparing for competitive leagues.",
+      "duration": "6 months",
+      "fee": 15000,
+      "ageGroup": "15+ years",
+      "batchSize": "Max 12 players",
+      "schedule": "Mon to Fri - 7:00 AM to 8:30 AM",
+      "level": "Advanced",
+      "batches": ["Morning 7-8:30 AM"]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Coach Anil Deshmukh",
+      "specialization": "Basketball Fundamentals & Youth Development",
+      "experience": "14 years",
+      "qualification": "FIBA Certified Coach",
+      "image": "/images/faculty/anil-deshmukh.jpg",
+      "bio": "Coach Anil has worked with school and college teams across Mumbai and guided several players into state-level tournaments."
+    },
+    {
+      "name": "Priya Nair",
+      "specialization": "Strength & Conditioning, Women’s Basketball",
+      "experience": "9 years",
+      "qualification": "NSCA Certified Trainer",
+      "image": "/images/faculty/priya-nair.jpg",
+      "bio": "Priya has trained both male and female athletes, focusing on injury prevention and performance enhancement."
+    }
+  ],
+  "facilities": [
+    {
+      "name": "Indoor Basketball Court",
+      "description": "Wooden flooring with FIBA-approved dimensions and lighting.",
+      "icon": "🏀"
+    },
+    {
+      "name": "Outdoor Multi-Purpose Court",
+      "description": "Synthetic flooring suitable for tournaments and recreational play.",
+      "icon": "🌐"
+    },
+    {
+      "name": "Strength & Conditioning Gym",
+      "description": "Equipped with modern fitness equipment tailored for basketball athletes.",
+      "icon": "💪"
+    },
+    {
+      "name": "Video Analysis Room",
+      "description": "Sessions recorded and analyzed to track individual progress.",
+      "icon": "🎥"
+    }
+  ],
+  "achievements": [
+    "Winners of Mumbai Inter-Academy Basketball Tournament 2022",
+    "10+ players selected for Maharashtra State Team",
+    "Hosted All-Mumbai School Basketball Championship 2023",
+    "Recognized by Mumbai District Basketball Association"
+  ],
+  "policies": {
+    "cancellation": "48 hours advance notice required for class cancellation",
+    "makeup": "2 makeup sessions allowed per month",
+    "payment": "Quarterly advance payment. Refunds not permitted after start of course",
+    "trial": "Free 1-hour trial session available for new students",
+    "attendance": "Minimum 75% attendance required for participation in tournaments"
+  },
+  "certifications": ["FIBA Certified", "Mumbai District Basketball Association Affiliated"],
+  "ratingBreakdown": {
+    "5": 70,
+    "4": 30,
+    "3": 8,
+    "2": 3,
+    "1": 1
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/somaiyasports",
+    "instagram": "https://instagram.com/somaiyasports",
+    "youtube": "https://youtube.com/somaiyasports"
+  },
+  "awards": [
+    {
+      "year": "2022",
+      "title": "Best Sports Academy (Basketball) - Mumbai",
+      "awardedBy": "Maharashtra Sports Awards"
+    }
+  ]
+}

@@ -1,111 +1,83 @@
 {
-    "id": 10,
-    "name": "National Cricket Academy (NCA)",
-    "type": "Cricket Academy",
-    "category": "cricket",
-    "tagline": "India’s Premier Cricket Development & Rehabilitation Centre",
-    "rating": 4.7,
-    "reviewCount": 120,
-    "heroImage": "/images/institutions/nca-banner.jpg",
-    "gallery": [
-      "/images/institutions/nca-gallery-1.jpg",
-      "/images/institutions/nca-gallery-2.jpg",
-      "/images/institutions/nca-gallery-3.jpg",
-      "/images/institutions/nca-gallery-4.jpg",
-      "/images/institutions/nca-gallery-5.jpg",
-      "/images/institutions/nca-gallery-6.jpg"
-    ],
-    "description": "Established by the BCCI in 2000 and located at M. Chinnaswamy Stadium, Bengaluru, NCA is India’s premier cricket training and rehabilitation facility. It offers world-class coaching, fitness, sports science, and medical support under expert guidance, led by Director VVS Laxman.",
-    "established": "2000",
-    "totalStudents": "Elite selected trainees (varies)",
-    "totalInstructors": "Multiple national coaches & physiotherapists",
-    "maxBatchSize": "Based on program",
-    "contact": {
-      "address": "M. Chinnaswamy Stadium Premises, MG Road, Bangalore, Karnataka 560001",
-      "phone": "+91 90650 45885",
-      "email": "support@national-cricket-academy.in",
-      "website": "nationalcricketsacademy.com"
+  "id": 1,
+  "name": "SMS Cricket Academy",
+  "type": "Sports Academy",
+  "category": "sports",
+  "tagline": "Passion Meets Professionalism",
+  "rating": 4.8,
+  "reviewCount": 228,
+  "heroImage": "/images/institutions/sms-cricket-academy-banner.jpg",
+  "description": "A premier cricket academy in Chennai offering both indoor and outdoor facilities, personalized coaching, and community classes catering to all ages and skill levels.",
+  "established": "2019",
+  "totalStudents": "132",
+  "totalInstructors": "13",
+  "maxBatchSize": "25",
+  "contact": {
+    "address": "Terrace of Ampa Sky Walk, No 1 Nelson Manickam Road, Aminjikarai, Chennai, Tamil Nadu 600029",
+    "phone": "+91 73581 98180",
+    "email": "info@smscricketacademy.in",
+    "website": null
+  },
+  "location": {
+    "city": "Chennai",
+    "area": "Aminjikarai",
+    "coordinates": null
+  },
+  "timing": {
+    "weekdays": "All day",
+    "weekends": "All day",
+    "closed": "None specified"
+  },
+  "highlights": [
+    "Indoor and outdoor cricket facilities",
+    "Professional trainers and personalized coaching",
+    "Community classes available",
+    "Free consultation offered"
+  ],
+  "courses": [],
+  "instructors": [],
+  "facilities": [
+    {
+      "name": "Indoor & Outdoor Cricket Facilities",
+      "description": "Versatile spaces for batting and bowling practice.",
+      "icon": "🏏"
     },
-    "location": {
-      "city": "Bangalore",
-      "area": "MG Road / M. Chinnaswamy Stadium",
-      "coordinates": [12.9763, 77.5990]
+    {
+      "name": "Coaching & Training",
+      "description": "Expert trainers offering tailored coaching sessions.",
+      "icon": "🎓"
     },
-    "timing": {
-      "weekdays": "9:30 AM – 5:30 PM",
-      "weekends": "Closed",
-      "closed": "Saturday & Sunday"
+    {
+      "name": "Community Classes",
+      "description": "Group training sessions to promote community learning.",
+      "icon": "🤝"
     },
-    "highlights": [
-      "BCCI-run elite training & rehabilitation facility",
-      "Multi-discipline coaching with top national coaches",
-      "Indoor/outdoor training pitches, gym, nets, rehab centre, sports science labs",
-      "Collaborations with MRF Pace Foundation, top experts & captains",
-      "Led by Director VVS Laxman, storied alumni & national team pipeline"
-    ],
-    "courses": [
-      {
-        "id": 1,
-        "title": "National Selection Talent Camp",
-        "description": "Camp for selected state talents focusing on technical refinement, fitness, and mental training.",
-        "duration": "Variable",
-        "fee": 0,
-        "ageGroup": "Under-19 & national prospects",
-        "batchSize": "Selection-based",
-        "schedule": "As per BCCI calendar",
-        "level": "Advanced/Elite",
-        "batches": ["Dependent on selection"]
-      }
-    ],
-    "instructors": [
-      {
-        "name": "VVS Laxman",
-        "specialization": "Director & Mentor",
-        "experience": "Legendary Indian cricketer; extensive coaching administration",
-        "qualification": "Former International Cricketer",
-        "image": "/images/faculty/vvs-laxman.jpg",
-        "bio": "Current Director overseeing NCA operation, talent development, and standards."
-      }
-    ],
-    "facilities": [
-      {
-        "name": "Training Grounds & Practice Pitches",
-        "description": "Multiple indoor & outdoor pitches including synthetic and turf nets for all-weather training.",
-        "icon": "🏏"
-      },
-      {
-        "name": "Gym & Sports Science Labs",
-        "description": "High-tech gym, fitness labs, video analysis, biomechanics & performance tracking.",
-        "icon": "💪"
-      },
-      {
-        "name": "Medical & Rehabilitation Centre",
-        "description": "Injury treatment, physio, sports medicine & recovery support for elite cricketers.",
-        "icon": "🩺"
-      },
-      {
-        "name": "Residential & Education Facilities",
-        "description": "On-site support infrastructure for camps (varies by program).",
-        "icon": "🏠"
-      }
-    ],
-    "achievements": [
-      "Training hub for Indian national team rehabilitation and talent grooming",
-      "Regular collaboration with MRF Pace Foundation for fast-bowling excellence",
-      "Instrumental in developing many Indian cricket legends"
-    ],
-    "policies": {
-      "cancellation": "As per BCCI schedule",
-      "makeup": "Not applicable",
-      "payment": "Not applicable (BCCI-driven selections)",
-      "trial": "By selection/trials only",
-      "attendance": "Mandatory for selected participants"
-    },
-    "certifications": [
-      "Official BCCI Training Centre"
-    ],
-    "ratingBreakdown": {},
-    "socialMedia": {},
-    "awards": []
-  }
-  
+    {
+      "name": "Free Consultation",
+      "description": "Initial free consultation available for new members.",
+      "icon": "💬"
+    }
+  ],
+  "achievements": [],
+  "policies": {
+    "cancellation": "Not specified",
+    "makeup": "Not specified",
+    "payment": "Not specified",
+    "trial": "Free consultation available",
+    "attendance": "Not specified"
+  },
+  "certifications": [],
+  "ratingBreakdown": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "socialMedia": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "awards": []
+}

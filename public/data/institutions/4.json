@@ -1,0 +1,79 @@
+{
+  "id": 1,
+  "name": "Krishna Premier Badminton Academy",
+  "type": "Sports Academy",
+  "category": "sports",
+  "tagline": "Elevate Your Game at Vijayanagar’s Premier Court",
+  "rating": 4.1,
+  "reviewCount": 877,
+  "heroImage": "/images/institutions/krishna-premier-badminton-banner.jpg",
+  "description": "Situated in Hampi Nagar, Vijayanagar, Krishna Premier Badminton Academy offers well-maintained indoor courts and flexible timings, making it a popular destination for both casual players and serious enthusiasts.",
+  "established": "2018",
+  "totalStudents": "Not specified",
+  "totalInstructors": "Not specified",
+  "maxBatchSize": "Max 4 players per court booking",
+  "contact": {
+    "address": "No. 2374, 1st Main Rd, Hampi Nagar, Stage 1, Hosahalli, Vijayanagar Club Road, Vijayanagar, Bangalore 560040",
+    "phone": null,
+    "email": null,
+    "website": null
+  },
+  "location": {
+    "city": "Bangalore",
+    "area": "Vijayanagar (Hampi Nagar)",
+    "coordinates": null
+  },
+  "timing": {
+    "weekdays": "5:30 AM – 11:00 PM",
+    "weekends": "5:30 AM – 11:00 PM",
+    "closed": "Open all days"
+  },
+  "highlights": [
+    "Bright, clean indoor courts",
+    "Essential amenities: Parking, drinking water, first aid, changing rooms",
+    "Equipment available on rent (rackets, shoes)—socks required for rented shoes",
+    "Strict non-marking shoes policy",
+    "Booking limit of 4 members per court"
+  ],
+  "courses": [],
+  "instructors": [],
+  "facilities": [
+    {
+      "name": "Indoor Badminton Courts",
+      "description": "Well-maintained courts with non-marking surface and good lighting",
+      "icon": "🏸"
+    },
+    {
+      "name": "Equipment Rental",
+      "description": "Rackets and badminton shoes available for rent (bring socks)",
+      "icon": "🎾"
+    },
+    {
+      "name": "Basic Amenities",
+      "description": "Parking, drinking water, first-aid, changing rooms on premises",
+      "icon": "🅿️"
+    }
+  ],
+  "achievements": [],
+  "policies": {
+    "cancellation": "Not specified",
+    "makeup": "Not specified",
+    "payment": "Not specified",
+    "trial": "Not specified",
+    "attendance": "Not specified"
+  },
+  "certifications": [],
+  "ratingBreakdown": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "socialMedia": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "awards": []
+}
