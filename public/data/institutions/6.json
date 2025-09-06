@@ -44,56 +44,7 @@
       "Lockers, changing rooms, cafeteria & parking",
       "Central Bengaluru location with good transit access"
     ],
-"courses": [
-      {
-        "id": 1,
-        "title": "Piano (Beginner)",
-        "description": "Learn piano fundamentals with classical and contemporary pieces. Perfect for absolute beginners.",
-        "duration": "3 months",
-        "fee": 8000,
-        "ageGroup": "6-12 years",
-        "batchSize": "1-on-1",
-        "schedule": "Mon, Wed, Fri - 4:00 PM to 5:00 PM",
-        "level": "Beginner",
-        "batches": ["Morning 9-10 AM", "Evening 4-5 PM", "Weekend 10-11 AM"]
-      },
-      {
-        "id": 2,
-        "title": "Guitar (Intermediate)",
-        "description": "Advanced guitar techniques including fingerpicking, chord progressions, and music theory.",
-        "duration": "4 months",
-        "fee": 9500,
-        "ageGroup": "12+ years",
-        "batchSize": "Max 4 students",
-        "schedule": "Tue, Thu, Sat - 5:00 PM to 6:30 PM",
-        "level": "Intermediate",
-        "batches": ["Evening 5-6:30 PM", "Weekend 2-3:30 PM"]
-      },
-      {
-        "id": 3,
-        "title": "Vocal Training",
-        "description": "Classical and western vocal training with breathing techniques and stage performance skills.",
-        "duration": "6 months",
-        "fee": 12000,
-        "ageGroup": "8+ years",
-        "batchSize": "1-on-1 or Max 3",
-        "schedule": "Flexible timing",
-        "level": "All levels",
-        "batches": ["Morning 10-11 AM", "Evening 6-7 PM", "Weekend flexible"]
-      },
-      {
-        "id": 4,
-        "title": "Drums",
-        "description": "Learn percussion fundamentals, rhythm patterns, and coordination techniques.",
-        "duration": "4 months",
-        "fee": 10000,
-        "ageGroup": "10+ years",
-        "batchSize": "1-on-1",
-        "schedule": "Wed, Sat - 3:00 PM to 4:00 PM",
-        "level": "Beginner to Advanced",
-        "batches": ["Afternoon 3-4 PM", "Evening 7-8 PM"]
-      }
-    ],
+
     "facilities": [
       {
         "name": "Badminton Courts",

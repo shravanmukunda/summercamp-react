@@ -57,10 +57,6 @@ const InstitutionDetail = ({ data }) => {
             <p className="text-2xl font-bold text-purple-600">{data.established}</p>
             <p className="text-sm text-gray-600">Established</p>
           </div>
-          <div>
-            <p className="text-2xl font-bold text-orange-600">{data.courses.length}</p>
-            <p className="text-sm text-gray-600">Courses</p>
-          </div>
         </div>
       </div>
 
@@ -70,7 +66,6 @@ const InstitutionDetail = ({ data }) => {
           <nav className="flex space-x-8 px-6 overflow-x-auto">
             {[
               { id: 'overview', label: 'Overview' },
-              { id: 'courses', label: 'Courses' },
               { id: 'instructors', label: 'Instructors' },
               { id: 'facilities', label: 'Facilities' },
               { id: 'gallery', label: 'Gallery' },
@@ -227,7 +222,7 @@ const InstitutionDetail = ({ data }) => {
 
                 {/* Rating Summary */}
                 <div className="bg-white border rounded-lg p-6">
-                  <h3 className="text-xl font-semibold mb-4">Rating Summary</h3>
+                  <h3 className="text-xl font-semibold mb-4">Google Rating Summary</h3>
                   <div className="text-center mb-4">
                     <div className="text-4xl font-bold text-yellow-500">
                       {data.rating.toFixed(1)}
@@ -261,68 +256,6 @@ const InstitutionDetail = ({ data }) => {
                     </div>
                   )}
                 </div>
-              </div>
-            </div>
-          )}
-
-          {/* Courses Tab */}
-          {activeTab === 'courses' && (
-            <div>
-              <h2 className="text-2xl font-semibold mb-6">Courses Offered</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                {data.courses.map((course) => (
-                  <div key={course.id} className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-                    <div className="flex justify-between items-start mb-4">
-                      <div>
-                        <h3 className="text-xl font-semibold mb-2">{course.title}</h3>
-                        <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                          {course.level}
-                        </span>
-                      </div>
-                      <span className="text-2xl font-bold text-blue-600">
-                        ₹{course.fee.toLocaleString()}
-                      </span>
-                    </div>
-                    
-                    <p className="text-gray-600 mb-4">{course.description}</p>
-                    
-                    <div className="space-y-2 text-sm">
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Duration:</span>
-                        <span className="font-medium">{course.duration}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Age Group:</span>
-                        <span className="font-medium">{course.ageGroup}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Batch Size:</span>
-                        <span className="font-medium">{course.batchSize}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Schedule:</span>
-                        <span className="font-medium">{course.schedule}</span>
-                      </div>
-                    </div>
-
-                    {course.batches && (
-                      <div className="mt-4">
-                        <p className="text-sm font-medium text-gray-700 mb-2">Available Batches:</p>
-                        <div className="flex flex-wrap gap-2">
-                          {course.batches.map((batch, idx) => (
-                            <span key={idx} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
-                              {batch}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                    
-                    <button className="w-full mt-4 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
-                      Enroll Now
-                    </button>
-                  </div>
-                ))}
               </div>
             </div>
           )}

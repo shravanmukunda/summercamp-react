@@ -1,197 +1,133 @@
 {
-    "id": 1,
-    "name": "Galaxy Tuition",
-    "type": "Music Academy",
-    "category": "music",
-    "tagline": "Where Music Meets Excellence",
-    "rating": 4.6,
-    "reviewCount": 82,
-    "heroImage": "/images/institutions/harmony-banner.jpg",
-    "gallery": [
-      "/images/institutions/harmony-gallery-1.jpg",
-      "/images/institutions/harmony-gallery-2.jpg",
-      "/images/institutions/harmony-gallery-3.jpg",
-      "/images/institutions/harmony-gallery-4.jpg",
-      "/images/institutions/harmony-gallery-5.jpg",
-      "/images/institutions/harmony-gallery-6.jpg"
-    ],
-    "description": "Harmony Music School has been nurturing musical talent for over 15 years in Bangalore. Our comprehensive programs cater to students of all ages and skill levels, from absolute beginners to advanced performers. We focus on both classical and contemporary music education with state-of-the-art facilities.",
-    "established": "2008",
-    "totalStudents": "500+",
-    "totalInstructors": "15",
-    "maxBatchSize": 8,
-    "contact": {
-      "address": "12/3 MG Road, Brigade Road, Bangalore, Karnataka 560001",
-      "phone": "+91 98765 43210",
-      "email": "info@harmonymusic.in",
-      "website": "www.harmonymusic.in"
+  "id": 1,
+  "name": "Mahalakshmi Layout Residents Forum Badminton Coaching",
+  "type": "Sports Club / Coaching Center",
+  "category": "sports",
+  "tagline": "Smash Excellence in Your Neighborhood",
+  "rating": 4.4,
+  "reviewCount": 170,
+  "heroImage": "/images/institutions/malayout-badminton-banner.jpg",
+  "gallery": [
+    "/images/institutions/malayout-badminton-1.jpg",
+    "/images/institutions/malayout-badminton-2.jpg",
+    "/images/institutions/malayout-badminton-3.jpg",
+    "/images/institutions/malayout-badminton-4.jpg",
+    "/images/institutions/malayout-badminton-5.jpg",
+    "/images/institutions/malayout-badminton-6.jpg"
+  ],
+  "description": "Organized by the Mahalakshmi Layout Residents Forum, this coaching initiative offers accessible badminton training for residents in a community-oriented environment. Leveraging local courts and periodic sessions, it caters to beginners through intermediate players.",
+  "established": "2025",
+  "totalStudents": "100+",
+  "totalInstructors": "3",
+  "maxBatchSize": 6,
+  "contact": {
+    "address": "C.A. Site No – 3(B), Narsimha Raju Road, Mahalakshmi Layout, Bangalore, Karnataka 560086",
+    "phone": "+91 80 23492017",
+    "email": "info@mrfclub.com",
+    "website": null
+  },
+  "location": {
+    "city": "Bangalore",
+    "area": "Mahalakshmi Layout",
+    "coordinates": [12.997, 77.571] 
+  },
+  "timing": {
+    "weekdays": "Evenings (6 PM–8 PM)",
+    "weekends": "Mornings & Evenings (8 AM–10 AM, 5 PM–7 PM)",
+    "closed": "Not specified"
+  },
+  "highlights": [
+    "Community-driven coaching for residents",
+    "Structured sessions for beginners & intermediates",
+    "Affordable, localized training close to home",
+    "Friendly, inclusive environment",
+    "Opportunities to join local matches"
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Coaching",
+      "description": "Fundamentals of badminton—grip, stance, basic strokes.",
+      "duration": "2 months",
+      "fee": 2000,
+      "ageGroup": "6-12 years",
+      "batchSize": "Max 6 students",
+      "schedule": "Tue & Thu – 6:00 PM to 7:00 PM",
+      "level": "Beginner",
+      "batches": ["Evening 6-7 PM"]
     },
-    "location": {
-      "city": "Bangalore",
-      "area": "MG Road",
-      "coordinates": [12.9716, 77.5946]
+    {
+      "id": 2,
+      "title": "Intermediate Coaching",
+      "description": "Footwork, shot combinations, and match play strategies.",
+      "duration": "3 months",
+      "fee": 3000,
+      "ageGroup": "13+ years",
+      "batchSize": "Max 6 students",
+      "schedule": "Mon, Wed & Sat – 6:00 PM to 7:30 PM",
+      "level": "Intermediate",
+      "batches": ["Evening 6-7:30 PM", "Weekend 8-9:30 AM"]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Not Specified",
+      "specialization": "Badminton Coaching – Beginners & Intermediates",
+      "experience": "Community-based trainers",
+      "qualification": "Local certified coaches",
+      "image": "/images/faculty/mrf-coach1.jpg",
+      "bio": "Volunteer/informal trainers associated with the Residents Forum."
+    }
+  ],
+  "facilities": [
+    {
+      "name": "Local Badminton Courts",
+      "description": "Outdoor or rented indoor courts within Mahalakshmi Layout",
+      "icon": "🏸"
     },
-    "timing": {
-      "weekdays": "9:00 AM - 8:00 PM",
-      "weekends": "9:00 AM - 6:00 PM",
-      "closed": "Sunday evenings"
+    {
+      "name": "Equipment Provision",
+      "description": "Basic racquets and shuttles available for use",
+      "icon": "🎾"
     },
-    "highlights": [
-      "Individual and group lessons available",
-      "Performance opportunities every month",
-      "Modern equipment and soundproof rooms",
-      "Certified instructors with 10+ years experience",
-      "Flexible scheduling options",
-      "Trinity College London certified courses"
-    ],
-    "courses": [
-      {
-        "id": 1,
-        "title": "Piano (Beginner)",
-        "description": "Learn piano fundamentals with classical and contemporary pieces. Perfect for absolute beginners.",
-        "duration": "3 months",
-        "fee": 8000,
-        "ageGroup": "6-12 years",
-        "batchSize": "1-on-1",
-        "schedule": "Mon, Wed, Fri - 4:00 PM to 5:00 PM",
-        "level": "Beginner",
-        "batches": ["Morning 9-10 AM", "Evening 4-5 PM", "Weekend 10-11 AM"]
-      },
-      {
-        "id": 2,
-        "title": "Guitar (Intermediate)",
-        "description": "Advanced guitar techniques including fingerpicking, chord progressions, and music theory.",
-        "duration": "4 months",
-        "fee": 9500,
-        "ageGroup": "12+ years",
-        "batchSize": "Max 4 students",
-        "schedule": "Tue, Thu, Sat - 5:00 PM to 6:30 PM",
-        "level": "Intermediate",
-        "batches": ["Evening 5-6:30 PM", "Weekend 2-3:30 PM"]
-      },
-      {
-        "id": 3,
-        "title": "Vocal Training",
-        "description": "Classical and western vocal training with breathing techniques and stage performance skills.",
-        "duration": "6 months",
-        "fee": 12000,
-        "ageGroup": "8+ years",
-        "batchSize": "1-on-1 or Max 3",
-        "schedule": "Flexible timing",
-        "level": "All levels",
-        "batches": ["Morning 10-11 AM", "Evening 6-7 PM", "Weekend flexible"]
-      },
-      {
-        "id": 4,
-        "title": "Drums",
-        "description": "Learn percussion fundamentals, rhythm patterns, and coordination techniques.",
-        "duration": "4 months",
-        "fee": 10000,
-        "ageGroup": "10+ years",
-        "batchSize": "1-on-1",
-        "schedule": "Wed, Sat - 3:00 PM to 4:00 PM",
-        "level": "Beginner to Advanced",
-        "batches": ["Afternoon 3-4 PM", "Evening 7-8 PM"]
-      }
-    ],
-    "instructors": [
-      {
-        "name": "Dr. Priya Sharma",
-        "specialization": "Classical Piano & Music Theory",
-        "experience": "15 years",
-        "qualification": "PhD in Music, Trinity College London Diploma",
-        "image": "/images/faculty/priya-sharma.jpg",
-        "bio": "Dr. Priya has trained over 200 students and has a 95% success rate in Trinity examinations."
-      },
-      {
-        "name": "Rahul Mehta",
-        "specialization": "Guitar & Contemporary Music",
-        "experience": "10 years",
-        "qualification": "Grade 8 Guitar, Berklee Online Certificate",
-        "image": "/images/faculty/rahul-mehta.jpg",
-        "bio": "Rahul is a performing artist who has played at major venues across South India."
-      },
-      {
-        "name": "Sneha Krishnan",
-        "specialization": "Carnatic Vocal & Western Vocals",
-        "experience": "12 years",
-        "qualification": "Master's in Music, AIR Grade Artist",
-        "image": "/images/faculty/sneha-krishnan.jpg",
-        "bio": "Sneha is an AIR grade artist and has won several state-level competitions."
-      }
-    ],
-    "facilities": [
-      {
-        "name": "Soundproof Practice Rooms",
-        "description": "8 individual practice rooms with acoustic treatment",
-        "icon": "🎵"
-      },
-      {
-        "name": "Recording Studio",
-        "description": "Professional recording setup for student performances",
-        "icon": "🎙️"
-      },
-      {
-        "name": "Performance Hall",
-        "description": "120-seat auditorium for concerts and recitals",
-        "icon": "🎭"
-      },
-      {
-        "name": "Instrument Library",
-        "description": "Guitars, keyboards, and other instruments for practice",
-        "icon": "🎸"
-      },
-      {
-        "name": "Digital Piano Lab",
-        "description": "10 digital pianos with headphones for group classes",
-        "icon": "🎹"
-      },
-      {
-        "name": "Music Library",
-        "description": "Extensive collection of sheet music and theory books",
-        "icon": "📚"
-      }
-    ],
-    "achievements": [
-      "Winner - Best Music Academy Bangalore 2023",
-      "95% student success rate in Trinity examinations",
-      "Featured in Times of India Education Section",
-      "Government recognized institute",
-      "Over 50 students placed in music colleges",
-      "Annual concert attendance of 500+ people"
-    ],
-
-    "policies": {
-      "cancellation": "24 hours advance notice required for class cancellation",
-      "makeup": "1 makeup class per month allowed for genuine reasons",
-      "payment": "Monthly advance payment required. No refunds after course commencement",
-      "trial": "Free 30-minute trial class available for all courses",
-      "attendance": "Minimum 80% attendance required for course completion certificate"
-    },
-    "certifications": ["Trinity College London", "ABRSM Authorized", "Karnataka Music Board"],
-    "ratingBreakdown": {
-      "5": 45,
-      "4": 28,
-      "3": 7,
-      "2": 2,
-      "1": 0
-    },
-    "socialMedia": {
-      "facebook": "https://facebook.com/harmonymusic",
-      "instagram": "https://instagram.com/harmonymusic",
-      "youtube": "https://youtube.com/harmonymusic"
-    },
-    "awards": [
-      {
-        "year": "2023",
-        "title": "Best Music Academy - Bangalore",
-        "awardedBy": "Education Excellence Awards"
-      },
-      {
-        "year": "2022",
-        "title": "Outstanding Contribution to Music Education",
-        "awardedBy": "Karnataka Music Association"
-      }
-    ]
-  }
-  
+    {
+      "name": "Community Hall (for strategy sessions)",
+      "description": "Casual setting for talk-through and feedback",
+      "icon": "🏠"
+    }
+  ],
+  "achievements": [
+    "Launched badminton coaching under MLRF banner — 2025",
+    "Positive community response with growing participation",
+    "Facilitated friendly matches among residents"
+  ],
+  "policies": {
+    "cancellation": "Notify 24 hours in advance to reschedule",
+    "makeup": "One makeup session per month allowed",
+    "payment": "Monthly advance payment, refunds per committee discretion",
+    "trial": "One free trial session available",
+    "attendance": "80% attendance encouraged for progression"
+  },
+  "certifications": [
+    "Local Sports Authority Affiliation (pending)"
+  ],
+  "ratingBreakdown": {
+    "5": 80,
+    "4": 60,
+    "3": 20,
+    "2": 10,
+    "1": 0
+  },
+  "socialMedia": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "awards": [
+    {
+      "year": "2025",
+      "title": "Best Community Sports Initiative",
+      "awardedBy": "Forum Members"
+    }
+  ]
+}
