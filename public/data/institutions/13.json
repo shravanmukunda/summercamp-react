@@ -1,0 +1,67 @@
+{
+  "id": 1,
+  "name": "Pronets Academy Private Basketball Coaching",
+  "type": "Sports Coaching Center",
+  "category": "sports",
+  "tagline": "Inspiring Young Hoopers Since 2015",
+  "rating": 4.8,
+  "reviewCount": 135,
+  "heroImage": "/images/institutions/pronets-basketball-banner.jpg",
+  "description": "Pronets Academy offers dedicated basketball coaching in Ghatkopar East, Mumbai. With passionate and encouraging coaches, the academy focuses on skill development, sportsmanship, and competitive exposure through inter-society matches and regional tournaments.",
+  "established": "2015",
+  "totalStudents": "Not specified",
+  "totalInstructors": "Not specified",
+  "maxBatchSize": "Not specified",
+  "contact": {
+    "address": "57/1102, 11th Floor, Pant Nagar, Ghatkopar East, Mumbai 400075",
+    "phone": "+91 77381 40637",
+    "email": null,
+    "website": "https://m.facebook.com/Pronets07"
+  },
+  "location": {
+    "city": "Mumbai",
+    "area": "Ghatkopar East",
+    "coordinates": null
+  },
+  "timing": {
+    "weekdays": "Open 24 hrs",
+    "weekends": "Open 24 hrs",
+    "closed": "None"
+  },
+  "highlights": [
+    "Highly dedicated and encouraging coaches",
+    "Exposure to inter-society matches and regional tournaments",
+    "Focus on sportsmanship, discipline, and holistic player development"
+  ],
+  "courses": [],
+  "instructors": [],
+  "facilities": [
+    {
+      "name": "Basketball Coaching Courts",
+      "description": "Indoor/indoor-adjacent courts available for private coaching sessions.",
+      "icon": "🏀"
+    }
+  ],
+  "achievements": [],
+  "policies": {
+    "cancellation": "Not specified",
+    "makeup": "Not specified",
+    "payment": "Not specified",
+    "trial": "Not specified",
+    "attendance": "Not specified"
+  },
+  "certifications": [],
+  "ratingBreakdown": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "socialMedia": {
+    "facebook": "https://m.facebook.com/Pronets07",
+    "instagram": null,
+    "youtube": null
+  },
+  "awards": []
+}

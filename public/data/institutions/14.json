@@ -1,0 +1,129 @@
+{
+  "id": 1,
+  "name": "RingChampions Basketball Academy",
+  "type": "Sports Academy",
+  "category": "sports",
+  "tagline": "Train Hard. Play Smart. Become a Champ.",
+  "rating": 5.0,
+  "reviewCount": 13,
+  "heroImage": "/images/institutions/ringchampions-basketball-banner.jpg",
+  "description": "RingChampions Basketball Academy, led by Coach Desmond Sylvan, offers indoor training in Mumbai across Bandra, Khar, Santacruz, and Andheri. The academy provides structured coaching for beginner to advanced players, emphasizing skill development and competitive readiness.",
+  "established": "2020",
+  "totalStudents": "200+",
+  "totalInstructors": "4",
+  "maxBatchSize": 12,
+  "contact": {
+    "address": "Khar Education Society, Ram Krishna Nagar, Swami Vivekananda Road, Khar West, Mumbai 400052",
+    "phone": "+91 98200 12345",
+    "email": "contact@ringchampions.in",
+    "website": "www.ringchampions.in"
+  },
+  "location": {
+    "city": "Mumbai",
+    "area": "Khar West (also Bandra, Santacruz, Andheri)",
+    "coordinates": [19.0600, 72.8400]
+  },
+  "timing": {
+    "weekdays": "6:00 PM - 8:00 PM",
+    "weekends": "10:00 AM - 2:00 PM",
+    "closed": "None"
+  },
+  "highlights": [
+    "Indoor covered courts—unique in Mumbai",
+    "Training at multiple zones: Bandra, Khar, Santacruz, Andheri",
+    "Programs for all levels—Beginner, Intermediate, Advanced",
+    "Certified coaching by Desmond Sylvan",
+    "Alumni representing Team Maharashtra at nationals",
+    "Year-round monsoon-proof courts"
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Essentials",
+      "description": "Master basic dribble, shooting, and defensive stance.",
+      "duration": "3 months",
+      "fee": 8000,
+      "ageGroup": "8–14 years",
+      "batchSize": "Max 12 players",
+      "schedule": "Mon, Wed, Fri – 6:00 PM to 7:00 PM",
+      "level": "Beginner",
+      "batches": ["Evening 6–7 PM"]
+    },
+    {
+      "id": 2,
+      "title": "Intermediate Skill Builder",
+      "description": "Focused on ball handling, court vision, and teamwork drills.",
+      "duration": "4 months",
+      "fee": 12000,
+      "ageGroup": "12–18 years",
+      "batchSize": "Max 10 players",
+      "schedule": "Tue, Thu, Sat – 7:00 PM to 8:30 PM",
+      "level": "Intermediate",
+      "batches": ["Evening 7–8:30 PM"]
+    },
+    {
+      "id": 3,
+      "title": "Advanced Performance Program",
+      "description": "Intensive training with match simulations and conditioning.",
+      "duration": "6 months",
+      "fee": 18000,
+      "ageGroup": "15+ years",
+      "batchSize": "Max 8 players",
+      "schedule": "Sat & Sun – 11:00 AM to 1:00 PM",
+      "level": "Advanced",
+      "batches": ["Weekend late morning"]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Desmond Sylvan",
+      "specialization": "Head Coach & Skill Development",
+      "experience": "8 years",
+      "qualification": "Certified Basketball Coach",
+      "image": "/images/faculty/desmond-sylvan.jpg",
+      "bio": "Coach Desmond leads RingChampions with a vision to elevate Mumbai’s basketball talent—from fundamentals to competitive excellence."
+    }
+  ],
+  "facilities": [
+    {
+      "name": "Indoor Covered Courts",
+      "description": "Weather-proof courts ensuring uninterrupted training year-round.",
+      "icon": "🏀"
+    },
+    {
+      "name": "Multi-zone Training Access",
+      "description": "Coaching available at venues in Khar, Bandra, Santacruz, and Andheri.",
+      "icon": "📍"
+    },
+    {
+      "name": "Performance Tracking",
+      "description": "Players tracked for performance and progression.",
+      "icon": "📊"
+    }
+  ],
+  "achievements": [
+    "Rated 5.0 on Justdial based on 13 user reviews",
+    "Alumni selected for Team Maharashtra at Senior Nationals"
+  ],
+  "policies": {
+    "cancellation": "24-hour notice required for cancellations",
+    "makeup": "1 makeup session allowed per month",
+    "payment": "Monthly advance payment required",
+    "trial": "Free trial class available upon request",
+    "attendance": "Required minimum 80% attendance"
+  },
+  "certifications": ["Coach Desmond is a certified basketball trainer"],
+  "ratingBreakdown": {
+    "5": 13,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/ringchampions",
+    "instagram": "https://www.instagram.com/ringchampions",
+    "youtube": null
+  },
+  "awards": []
+}

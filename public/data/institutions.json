@@ -5,18 +5,19 @@
       "type": "",
       "category": "sports",
       "city": "Bangalore",
-      "area": "MG Road",
+      "area": "Mahalaxmi Layout",
       "rating": 4.2,
       "reviewCount": 1805,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmeZyyKWUg2jeFRs3okR0od6KLbPL3FBzL0Q&s",
       "tagline": "",
       "startingPrice": 2500
     },
+
     {
       "id": 2,
       "name": "Nandini Layout Club",
-      "type": "Art Academy",
-      "category": "art",
+      "type": "Sports Academy",
+      "category": "sports",
       "city": "Bangalore",
       "area": "Nandini Layout",
       "rating": 4.0,
@@ -25,6 +26,7 @@
       "tagline": "Unleash Your Creative Potential",
       "startingPrice": 6000
     },
+
     {
       "id": 3,
       "name": "Dr.Rajkumar Badminton Academy",
@@ -35,21 +37,22 @@
       "rating": 4.2,
       "reviewCount": 112,
       "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npSOWs6dqF2BVNXvgKjnxtF-ynBVt5Q-KFMKH4wQ7Zjyw61zk_I8T5V8e5ifoAuBHIZVfjm3tCI8sQJQawIcnMNMdJwDmAnAV9eoVlVgCetvnOU3CvMO0Vr8O0fwHDN-YhH4Spy5g=s1360-w1360-h1020-rw",
-      "tagline": "Dance Your Way to Excellence",
+      "tagline": "Master your Game!",
       "startingPrice": 5000
     },
+
     {
       "id": 4,
-      "name": "Bright Future Tuition",
-      "type": "Tuition Center",
-      "category": "tuition",
+      "name": "Krishna Premier Badminton Academy",
+      "type": "Sports Academy",
+      "category": "sports",
       "city": "Bangalore",
-      "area": "Jayanagar",
-      "rating": 4.8,
-      "reviewCount": 156,
-      "image": "/images/institutions/tuition-banner.jpg",
+      "area": "Hampi Nagar",
+      "rating": 4.2,
+      "reviewCount": 869,
+      "image": "https://playo.gumlet.io/KRISHNAPREMIERBADMINTONACADEMY/krishnapremierbadmintonacademy0.jpg",
       "tagline": "Your Success, Our Mission",
-      "startingPrice": 5000
+      "startingPrice": 3500
     },
 
     {
@@ -61,22 +64,22 @@
       "area": "Mahadevpura",
       "rating": 4.5,
       "reviewCount": 73,
-      "image": "/images/institutions/sports-banner.jpg",
+      "image": "https://playo.gumlet.io/LEOSPORTS20210405061016689176/LeoSports1663603233857.png",
       "tagline": "Champions are Made Here",
       "startingPrice": 7500
     },
     {
       "id": 6,
-      "name": "Karnata Badminton Association",
+      "name": "Karnataka Badminton Association",
       "type": "Sports Academy",
       "category": "sports",
       "city": "Bangalore",
       "area": "Vasanth Nagar",
       "rating": 4.5,
       "reviewCount": 73,
-      "image": "/images/institutions/sports-banner.jpg",
+      "image": "https://images.jdmagicbox.com/v2/comp/bangalore/81/080p30181/catalogue/karnataka-badminton-association-vasanth-nagar-bangalore-tutorials-owpqrg.jpg",
       "tagline": "Champions are Made Here",
-      "startingPrice": 7500
+      "startingPrice": 9500
     },
     {
       "id": 7,
@@ -87,7 +90,7 @@
       "area": "Rajajinagar",
       "rating": 4.5,
       "reviewCount": 73,
-      "image": "/images/institutions/sports-banner.jpg",
+      "image": "https://playo.gumlet.io/A2VBADMINTONACADEMY20241210043756772546/A2VBadmintonAcademy1755524352869.jpeg",
       "tagline": "Champions are Made Here",
       "startingPrice": 8500
     },
@@ -100,9 +103,9 @@
       "area": "Rajajinagar",
       "rating": 4.5,
       "reviewCount": 73,
-      "image": "/images/institutions/sports-banner.jpg",
+      "image": "https://content3.jdmagicbox.com/v2/comp/bangalore/a6/080pxx80.xx80.181114100929.q1a6/catalogue/vajpayee-sports-club-rajajinagar-bangalore-sports-clubs-hOvt1WLuum.jpg",
       "tagline": "Champions are Made Here",
-      "startingPrice": 8500
+      "startingPrice": 2500
     },
     {
       "id": 9,
@@ -113,24 +116,73 @@
       "area": "Nagarbhavi",
       "rating": 4.5,
       "reviewCount": 73,
-      "image": "/images/institutions/sports-banner.jpg",
+      "image": "https://content.jdmagicbox.com/v2/comp/bangalore/c5/080pxx80.xx80.230104164436.m1c5/catalogue/nagarbhavi-sports-arena-muddinapalya-bangalore-cricket-coaching-classes-u2d04k47hn.jpg",
       "tagline": "Champions are Made Here",
       "startingPrice": 8500
     },
     {
       "id": 10,
-      "name": "National Cricket Academy",
+      "name": "SMS Cricket Academy",
       "type": "Sports Academy",
       "category": "sports",
       "city": "Chennai",
-      "area": "T. Nagar",
-      "rating": 4.5,
-      "reviewCount": 73,
-      "image": "/images/institutions/sports-banner.jpg",
+      "area": "Poombukar Nagar",
+      "rating": 4.9,
+      "reviewCount": 211,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipP2c2XE2UuYyZlZSZRxPwVO4IeZA0R1tZ0mZJ-s=s1360-w1360-h1020-rw",
       "tagline": "Champions are Made Here",
-      "startingPrice": 8500
+      "startingPrice": 7500
+    },
+    {
+      "id": 11,
+      "name": "Flowternity Sports",
+      "type": "Basketball Academy",
+      "category": "sports",
+      "city": "Bangalore",
+      "area": "Horamavu",
+      "rating": 4.9,
+      "reviewCount": 211,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOMOqx05KyoPRF1BiGG0zs59rHDGQXx2ualNbGg=s1360-w1360-h1020-rw",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 7500
+    },
+    {
+      "id": 12,
+      "name": "Somaiya Sports Academy",
+      "type": "Basketball Academy",
+      "category": "sports",
+      "city": "Mumbai",
+      "area": "Vidyavihar",
+      "rating": 4.9,
+      "reviewCount": 211,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMUIdIkkr97uk3hkHt9aJ1R_aQ4BXpQ5AnhRp41=s1360-w1360-h1020-rw",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 7500
+    },
+    {
+      "id": 13,
+      "name": "Pronets Basketball Academy",
+      "type": "Basketball Academy",
+      "category": "sports",
+      "city": "Mumbai",
+      "area": "Ghatkopar",
+      "rating": 4.9,
+      "reviewCount": 211,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipOuH6_iqZYLcuDjTQcPqg1DodrA5wAxWKN-yJrg=s1360-w1360-h1020-rw",
+      "tagline": "Champions are Made Here",
+      "startingPrice": 7500
+    },
+    {
+      "id": 14,
+      "name": "Ringchampions basketball academy",
+      "type": "Basketball Academy",
+      "category": "sports",
+      "city": "Mumbai",
+      "area": "Khar West",
+      "rating": 4.9,
+      "reviewCount": 21,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNHvZOzNvuxGBe-PTw6q2f6KP4rGS5ElWyVKdvJ=s1360-w1360-h1020-rw",
+      "startingPrice":8500
     }
-
-
   ]
   

@@ -1,62 +1,81 @@
 {
-  "id": 5,
+  "id": 1,
   "name": "Leo Sports",
-  "type": "Sports Club",
-  "category": "badminton",
-  "tagline": "Play. Practice. Perfect.",
+  "type": "Sports Club / Academy",
+  "category": "sports",
+  "tagline": "Serve. Smash. Improve.",
   "rating": 3.9,
-  "reviewCount": 187,
-  "heroImage": "/images/institutions/leo-banner.jpg",
-  "gallery": [
-    "/images/institutions/leo-gallery-1.jpg",
-    "/images/institutions/leo-gallery-2.jpg",
-    "/images/institutions/leo-gallery-3.jpg"
-  ],
-  "description": "Leo Sports offers indoor badminton and snooker facilities in Mahadevapura, Bangalore. They cater to both hobbyists and competitive players.",
-  "established": "2015",
-  "totalStudents": "N/A",
-  "totalInstructors": "N/A",
-  "maxBatchSize": "N/A",
+  "reviewCount": 319,
+  "heroImage": "/images/institutions/leo-sports-badminton-mahadevapura-banner.jpg",
+  "description": "A multi-sport facility in Shivganga Layout, Mahadevapura, offering indoor badminton courts with rental equipment and flexible booking options, ideal for both casual players and serious practice.",
+  "established": "Not specified",
+  "totalStudents": "Not specified",
+  "totalInstructors": "Not specified",
+  "maxBatchSize": "Max 4 players per court booking",
   "contact": {
-    "address": "Shivganga Layout, Outer Ring Road, Mahadevapura, Bangalore - 560048",
-    "phone": "Not listed",
-    "email": "Not available",
-    "website": "Not available"
+    "address": "Site No. 11/3, 11/4, 11/5, Shivganga Layout, Near Mahadevapura, Outer Ring Road, Bangalore 560048",
+    "phone": null,
+    "email": null,
+    "website": null
   },
   "location": {
     "city": "Bangalore",
-    "area": "Mahadevapura",
-    "coordinates": [12.9784, 77.6491]
+    "area": "Mahadevapura (Shivganga Layout)",
+    "coordinates": null
   },
   "timing": {
-    "weekdays": "5:00 AM - 10:00 PM",
-    "weekends": "5:00 AM – 10:00 PM",
-    "closed": "None"
+    "weekdays": "4:00 AM – 11:00 PM",
+    "weekends": "4:00 AM – 11:00 PM",
+    "closed": "Open all days"
   },
   "highlights": [
-    "Indoor badminton courts",
-    "Snooker tables",
-    "Open early mornings and late evenings"
+    "Indoor badminton courts bookable via Playo",
+    "Equipment rentals available—rackets and shoes (socks required)",
+    "Venue frequently hosts tournaments like 'Namma Badminton' and 'Rising Stars'",
+    "Convenient location and extended operating hours"
   ],
   "courses": [],
   "instructors": [],
   "facilities": [
-    { "name": "Badminton Courts", "description": "Indoor bookable courts", "icon": "🏸" },
-    { "name": "Snooker", "description": "Full-size snooker tables", "icon": "🎱" }
+    {
+      "name": "Indoor Badminton Courts",
+      "description": "Synthetic-surface courts available for public booking.",
+      "icon": "🏸"
+    },
+    {
+      "name": "Equipment Rental",
+      "description": "Rackets and non-marking shoes available for rent (bring socks).",
+      "icon": "🎾"
+    },
+    {
+      "name": "Tournaments & Events",
+      "description": "Hosts community tournaments like 'Namma Badminton' and 'Rising Stars'.",
+      "icon": "🏅"
+    }
   ],
   "achievements": [
-    "Venue for Namma Badminton Series",
-    "Hosted Level-Up Badminton Tournament"
+    "Frequent venue for local badminton tournaments",
+    "Reliable booking and active community engagement"
   ],
   "policies": {
-    "cancellation": "As per venue terms",
+    "cancellation": "Not specified",
     "makeup": "Not specified",
-    "payment": "Per booking basis",
+    "payment": "Not specified",
     "trial": "Not specified",
-    "attendance": "N/A"
+    "attendance": "Not specified"
   },
   "certifications": [],
-  "ratingBreakdown": {},
-  "socialMedia": {},
+  "ratingBreakdown": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "socialMedia": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null
+  },
   "awards": []
 }

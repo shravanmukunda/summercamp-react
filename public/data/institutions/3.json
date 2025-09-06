@@ -1,0 +1,91 @@
+{
+  "id": 1,
+  "name": "Dr. Rajkumar Badminton Academy",
+  "type": "Sports Academy",
+  "category": "sports",
+  "tagline": "Master Your Game in Rajajinagar",
+  "rating": 4.5,
+  "reviewCount": 158,
+  "heroImage": "https://content.jdmagicbox.com/v2/comp/bangalore/c6/080pxx80.xx80.230826180454.e4c6/catalogue/dr-rajkumar-badminton-academy-rajajinagar-bangalore-sports-clubs-aQ9DbCj9Yh.jpg",
+  "gallery": [
+    "/images/institutions/dr-rajkumar-badminton-1.jpg",
+    "/images/institutions/dr-rajkumar-badminton-2.jpg",
+    "/images/institutions/dr-rajkumar-badminton-3.jpg",
+    "/images/institutions/dr-rajkumar-badminton-4.jpg",
+    "/images/institutions/dr-rajkumar-badminton-5.jpg",
+    "/images/institutions/dr-rajkumar-badminton-6.jpg"
+  ],
+  "description": "Offering structured badminton coaching and court facilities in Rajajinagar, this academy serves beginners to intermediate players, with convenient access and essential amenities.",
+  "established": "Unknown",
+  "totalStudents": "Not specified",
+  "totalInstructors": "Not specified",
+  "maxBatchSize": "Up to 4 players per court booking",
+  "contact": {
+    "address": "1819, Dr Rajkumar Road, Next to Suguna Hospital, 4th N Block, Rajajinagar, Bangalore 560010",
+    "phone": null,
+    "email": null,
+    "website": null
+  },
+  "location": {
+    "city": "Bangalore",
+    "area": "Rajajinagar",
+    "coordinates": null
+  },
+  "timing": {
+    "weekdays": "5:30 AM – 10:00 PM",
+    "weekends": "5:30 AM – 10:00 PM",
+    "closed": "None specified"
+  },
+  "highlights": [
+    "Well-maintained badminton courts with clean amenities",
+    "Essential facilities: parking, showers, change rooms, drinking water, first aid",
+    "Equipment rental available (rackets, non-marking shoes)",
+    "Simple booking policy—max 4 players per court"
+  ],
+  "courses": [],
+  "instructors": [],
+  "facilities": [
+    {
+      "name": "Indoor Badminton Courts",
+      "description": "Standard indoor courts with non-marking surface",
+      "icon": "🏸"
+    },
+    {
+      "name": "Equipment Rental",
+      "description": "Rackets and non-marking shoes available to rent (own socks required)",
+      "icon": "🎾"
+    },
+    {
+      "name": "Changing & Shower Facilities",
+      "description": "On-site change rooms and shower facilities available",
+      "icon": "🚿"
+    },
+    {
+      "name": "Parking & Basic Amenities",
+      "description": "Parking, drinking water, and first-aid facilities on premises",
+      "icon": "🅿️"
+    }
+  ],
+  "achievements": [],
+  "policies": {
+    "cancellation": "Not specified",
+    "makeup": "Not specified",
+    "payment": "Not specified",
+    "trial": "Not specified",
+    "attendance": "Not specified"
+  },
+  "certifications": [],
+  "ratingBreakdown": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "socialMedia": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "awards": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": 11,
+  "name": "Flowternity Sports",
+  "type": "Multi-Sport Facility",
+  "category": "sports",
+  "tagline": "Urban Hoops with a Streetball Vibe",
+  "rating": 4.9,
+  "reviewCount": 36,
+  "heroImage": "/images/institutions/flowternity-basketball-horamavu-banner.jpg",
+  "description": "An energetic multi-sport complex in Horamavu offering world-class outdoor basketball courts inspired by NYC’s 'The Cage', alongside pickleball, skating, and athlete recovery zones.",
+  "established": "2019",
+  "totalStudents": "Not specified",
+  "totalInstructors": "Not specified",
+  "maxBatchSize": "Max 10 players per court booking",
+  "contact": {
+    "address": "1456, Old Flour Mill Road, Dodda Kempaih Layout, Kalkere, Horamavu, Bengaluru, Karnataka 560043",
+    "phone": "98866 96155",
+    "email": null,
+    "website": "flowternity.com"
+  },
+  "location": {
+    "city": "Bangalore",
+    "area": "Horamavu (Kalkere)",
+    "coordinates": null
+  },
+  "timing": {
+    "weekdays": "6:00 AM – 11:00 PM",
+    "weekends": "6:00 AM – 11:00 PM",
+    "closed": "None"
+  },
+  "highlights": [
+    "Outdoor basketball courts with synthetic flooring and 20-ft floodlights",
+    "Streetball experience with 16-ft metal boundaries and dunking rims",
+    "Multi-sport amenities: pickleball courts, skate park, calisthenics zone",
+    "Athlete recovery area: ice tub, showers, changing rooms"
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Weekend Basketball Sessions (All ages)",
+      "description": "Structured coaching in a community-friendly format.",
+      "duration": "Ongoing",
+      "fee": null,
+      "ageGroup": "All ages",
+      "batchSize": "Max 10 players per court",
+      "schedule": "Sat & Sun – 8:00 AM to 9:00 AM; 5:00 PM to 6:00 PM",
+      "level": "All levels",
+      "batches": ["Morning", "Evening"]
+    },
+    {
+      "id": 2,
+      "title": "Adult Fitness Through Basketball",
+      "description": "Evening basketball drills focused on fitness.",
+      "duration": "Ongoing",
+      "fee": null,
+      "ageGroup": "Adults",
+      "batchSize": null,
+      "schedule": "Tue & Thu – 7:00 PM to 8:00 PM",
+      "level": "All levels",
+      "batches": ["Evening"]
+    }
+  ],
+  "instructors": [],
+  "facilities": [
+    {
+      "name": "Outdoor Basketball Courts",
+      "description": "Synthetic-surface courts with 20-ft floodlights for day & night play.",
+      "icon": "🏀"
+    },
+    {
+      "name": "Streetball Boundaries & Dunk Rims",
+      "description": "16-ft metal boundary enclosing courts with dunking capability.",
+      "icon": "🏟️"
+    },
+    {
+      "name": "Multi-Sport Zones",
+      "description": "Includes pickleball courts, skate park, calisthenics area.",
+      "icon": "🤸"
+    },
+    {
+      "name": "Athlete Recovery Zone",
+      "description": "Ice tub, showers, and changing room facilities.",
+      "icon": "🛁"
+    }
+  ],
+  "achievements": [],
+  "policies": {
+    "cancellation": "Not specified",
+    "makeup": "Not specified",
+    "payment": "Not specified",
+    "trial": "Not specified",
+    "attendance": "Not specified"
+  },
+  "certifications": [],
+  "ratingBreakdown": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "socialMedia": {
+    "facebook": null,
+    "instagram": null,
+    "youtube": null
+  },
+  "awards": []
+}
