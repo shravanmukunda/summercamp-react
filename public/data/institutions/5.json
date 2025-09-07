@@ -3,6 +3,7 @@
   "name": "Leo Sports",
   "type": "Sports Club / Academy",
   "category": "sports",
+  "sports": ["Badminton"],
   "tagline": "Serve. Smash. Improve.",
   "rating": 3.9,
   "reviewCount": 319,

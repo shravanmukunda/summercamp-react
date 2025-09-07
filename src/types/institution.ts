@@ -5,6 +5,7 @@ export interface Institution {
   name: string;
   type: string;
   category: InstitutionCategory;
+  sports?: string[];
   city: string;
   area: string;
   rating: number;
@@ -37,6 +38,7 @@ export interface InstitutionDetail extends Institution {
   policies?: {
     [key: string]: string;
   };
+  sports?: string[];
 }
 
 export interface Program {
@@ -82,4 +84,5 @@ export interface SearchFilters {
   minRating?: number;
   maxPrice?: number;
   searchTerm?: string;
+  sportType?: string;
 }

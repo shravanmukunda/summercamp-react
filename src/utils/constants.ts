@@ -28,6 +28,29 @@ export const CITIES: string[] = [
   'Others',
 ];
 
+export const SPORTS: string[] = [
+  "Athletics",
+  "Badminton",
+  "Baseball",
+  "Basketball",
+  "Boxing",
+  "Cricket",
+  "Cycling",
+  "Esports",
+  "Football",
+  "Golf",
+  "Gymnastics",
+  "Hockey",
+  "Judo",
+  "Karate",
+  "Rugby",
+  "Swimming",
+  "Table Tennis",
+  "Tennis",
+  "Volleyball",
+  "Wrestling"
+];
+
 export const API_ENDPOINTS = {
   INSTITUTIONS: '/data/institutions.json',
   INSTITUTION_DETAIL: (id: string | number): string => `/data/institutions/${id}.json`,

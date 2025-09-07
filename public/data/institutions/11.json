@@ -3,6 +3,7 @@
   "name": "Flowternity Sports",
   "type": "Multi-Sport Facility",
   "category": "sports",
+  "sports": ["Basketball", "Athletics", "Others"],
   "tagline": "Urban Hoops with a Streetball Vibe",
   "rating": 4.9,
   "reviewCount": 36,

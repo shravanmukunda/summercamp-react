@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { SearchFilters } from '../../types/institution';
-import { CITIES } from '../../utils/constants';
+import { CITIES, SPORTS } from '../../utils/constants';
 
 interface SearchSectionProps {
   onSearch: (filters: SearchFilters) => void;
@@ -10,26 +10,33 @@ interface SearchSectionProps {
 const SearchSection: React.FC<SearchSectionProps> = ({ onSearch, className = '' }) => {
   const [query, setQuery] = useState<string>('');
   const [location, setLocation] = useState<string>('');
+  const [sport, setSport] = useState<string>('');
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     onSearch({ 
       searchTerm: query, 
-      area: location 
+      area: location,
+      sportType: sport
     });
   };
 
   const clearFilters = (): void => {
     setQuery('');
     setLocation('');
-    onSearch({ searchTerm: '', category: undefined, area: '' });
+    setSport('');
+    onSearch({ searchTerm: '', category: undefined, area: '', sportType: '' });
   };
 
   const handleInputChange = (setter: React.Dispatch<React.SetStateAction<string>>) => 
     (e: React.ChangeEvent<HTMLInputElement>) => setter(e.target.value);
 
-  const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>): void => {
+  const handleLocationChange = (e: React.ChangeEvent<HTMLSelectElement>): void => {
     setLocation(e.target.value);
+  };
+
+  const handleSportChange = (e: React.ChangeEvent<HTMLSelectElement>): void => {
+    setSport(e.target.value);
   };
 
   return (
@@ -52,6 +59,24 @@ const SearchSection: React.FC<SearchSectionProps> = ({ onSearch, className = '' 
           />
         </div>
 
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="sport-select">
+            Sport
+          </label>
+          <select
+            id="sport-select"
+            className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            value={sport}
+            onChange={handleSportChange}
+          >
+            <option value="">All Sports</option>
+            {SPORTS.map((sportOption) => (
+              <option key={sportOption} value={sportOption}>
+                {sportOption}
+              </option>
+            ))}
+          </select>
+        </div>
 
         {/* Location Filter */}
         <div>
@@ -62,7 +87,7 @@ const SearchSection: React.FC<SearchSectionProps> = ({ onSearch, className = '' 
             id="location-select"
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             value={location}
-            onChange={handleSelectChange}
+            onChange={handleLocationChange}
           >
             <option value="">All Locations</option>
             {CITIES.map((city) => (

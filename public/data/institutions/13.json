@@ -3,6 +3,7 @@
   "name": "Pronets Academy Private Basketball Coaching",
   "type": "Sports Coaching Center",
   "category": "sports",
+  "sports": ["Basketball"],
   "tagline": "Inspiring Young Hoopers Since 2015",
   "rating": 4.8,
   "reviewCount": 135,

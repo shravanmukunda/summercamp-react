@@ -3,6 +3,7 @@
   "name": "Somaiya Sports Academy",
   "type": "Sports Academy",
   "category": "sports",
+  "sports": ["Basketball"],
   "tagline": "Building Champions On and Off the Court",
   "rating": 4.7,
   "reviewCount": 112,

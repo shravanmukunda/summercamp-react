@@ -48,7 +48,7 @@ export const fetchInstitutionDetail = async (id: string | number): Promise<Insti
 };
 
 // Helper function for debounced API calls
-export const debounce = <T extends (...args: any[]) => any>(
+export const debounce = <T extends (...args: never[]) => unknown>(
   func: T,
   wait: number
 ): ((...args: Parameters<T>) => void) => {

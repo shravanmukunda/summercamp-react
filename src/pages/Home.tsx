@@ -58,6 +58,16 @@ const Home: React.FC = () => {
       );
     }
 
+    // Filter by sport type
+    if (filters.sportType && filters.sportType.trim()) {
+      const sportType = filters.sportType.toLowerCase();
+      filteredInstitutions = filteredInstitutions.filter(inst =>
+        inst.sports?.some(sport => sport.toLowerCase() === sportType) ||
+        inst.type.toLowerCase().includes(sportType) ||
+        inst.name.toLowerCase().includes(sportType)
+      );
+    }
+
     setFiltered(filteredInstitutions);
   }, [institutions]);
 
