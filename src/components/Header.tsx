@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import type { ComponentWithClassName } from '../types';
 
@@ -6,17 +6,43 @@ interface HeaderProps extends ComponentWithClassName {}
 
 const Header: React.FC<HeaderProps> = ({ className = '' }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+  const [isVisible, setIsVisible] = useState<boolean>(true);
+  const [lastScrollY, setLastScrollY] = useState<number>(0);
 
   const toggleMobileMenu = (): void => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = (): void => {
+      const currentScrollY = window.scrollY;
+      
+      // Show header when scrolling up or at the top
+      if (currentScrollY < lastScrollY || currentScrollY < 10) {
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Hide header when scrolling down and past 100px
+        setIsVisible(false);
+        // Close mobile menu when hiding header
+        setIsMobileMenuOpen(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
   return (
-    <header className={`bg-white shadow-lg border-b border-gray-100 sticky top-0 z-50 ${className}`}>
+    <header className={`bg-white fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ease-in-out ${
+      isVisible ? 'translate-y-0' : '-translate-y-full'
+    } ${className}`}>
       <nav className="flex items-center justify-between px-4 py-3">
         {/* Logo / Brand (optional placeholder) */}
         <Link to="/" className="text-xl font-bold text-gray-800">
-          <img src="/logo.svg" alt="Logo" className="w-30 h-16" />
+          <img src="/logo.svg" alt="Logo" className="w-40 h-20 hover:scale-105 transition-transform duration-200" />
         </Link>
 
         {/* CTA Button (Desktop) */}
