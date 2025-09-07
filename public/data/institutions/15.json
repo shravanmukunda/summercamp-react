@@ -1,0 +1,131 @@
+{
+  "id": 1,
+  "name": "Leo Tennis Academy",
+  "type": "Sports Academy",
+  "category": "sports",
+  "sports": ["Tennis"],
+  "tagline": "Serve with Power, Rally with Precision",
+  "rating": 4.2,
+  "reviewCount": 142,
+  "heroImage": "/images/institutions/leo-tennis-academy-banner.jpg",
+  "description": "Leo Tennis Academy in Andheri West delivers quality coaching for all ages. With well-maintained hard courts, evening floodlights, and a focus on fundamentals to competitive play, it’s a favored spot for tennis enthusiasts in Western Mumbai.",
+  "established": "2000",
+  "totalStudents": "350+",
+  "totalInstructors": "6",
+  "maxBatchSize": 8,
+  "contact": {
+    "address": "No. 39, Manish Nagar Rd, opposite building, Gharkul Society, Indira Nagar, Four Bungalows, Andheri West, Mumbai 400053",
+    "phone": "+91 98208 46564",
+    "email": "info@leotennisacademy.com",
+    "website": "leotennisacademy.com"
+  },
+  "location": {
+    "city": "Mumbai",
+    "area": "Andheri West (Four Bungalows)",
+    "coordinates": [19.1180, 72.8290]
+  },
+  "timing": {
+    "weekdays": "6:30 AM - 9:30 PM",
+    "weekends": "6:30 AM - 9:30 PM",
+    "closed": "None"
+  },
+  "highlights": [
+    "Five well-maintained hard courts with consistent bounce",
+    "Floodlights for evening and late-night play",
+    "Wheelchair accessible entrance and exit",
+    "Convenient booking and slot availability",
+    "Close proximity to DN Nagar Metro Station",
+    "Community feel with friendly coaching staff"
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Junior Beginners (Ages 8–12)",
+      "description": "Basic strokes, grip, footwork, and coordination drills.",
+      "duration": "8 weeks",
+      "fee": 5000,
+      "ageGroup": "8–12 years",
+      "batchSize": "Max 8 players",
+      "schedule": "Mon, Wed, Fri – 5:00 PM to 6:00 PM",
+      "level": "Beginner",
+      "batches": ["Evening 5–6 PM", "Weekend 9–10 AM"]
+    },
+    {
+      "id": 2,
+      "title": "Youth Intermediate",
+      "description": "Advanced shot selection, match scenarios, and court tactics.",
+      "duration": "12 weeks",
+      "fee": 8000,
+      "ageGroup": "12–18 years",
+      "batchSize": "Max 6 players",
+      "schedule": "Tue, Thu, Sat – 6:00 PM to 7:30 PM",
+      "level": "Intermediate",
+      "batches": ["Evening 6–7:30 PM"]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Coach Rohan Mehta",
+      "specialization": "Youth Coaching & Technique",
+      "experience": "10 years",
+      "qualification": "Certified by National Tennis Academy",
+      "image": "/images/faculty/rohan-mehta.jpg",
+      "bio": "Coach Rohan has trained several young players who have advanced to city-level tournaments."
+    },
+    {
+      "name": "Anjali Rao",
+      "specialization": "Adult Fitness & Strategy",
+      "experience": "7 years",
+      "qualification": "ITF Certified Coach",
+      "image": "/images/faculty/anjali-rao.jpg",
+      "bio": "Anjali specializes in technique refinement and match strategy for older teens and adults."
+    }
+  ],
+  "facilities": [
+    {
+      "name": "Hard Tennis Courts",
+      "description": "Five hard surface courts with excellent lighting and consistent bounce.",
+      "icon": "🎾"
+    },
+    {
+      "name": "Floodlight System",
+      "description": "Bright lighting for safe evening play.",
+      "icon": "💡"
+    },
+    {
+      "name": "Accessible Entrances",
+      "description": "Wheelchair accessible entry and exit points.",
+      "icon": "♿"
+    },
+    {
+      "name": "Changing Rooms & Water",
+      "description": "Basic changing and refreshment facilities on-site.",
+      "icon": "🚰"
+    }
+  ],
+  "achievements": [
+    "Longest-standing tennis facility in Manish Nagar since 2000",
+    "Consistently rated 4+ by users for court quality and ambience"
+  ],
+  "policies": {
+    "cancellation": "24-hour notice required for session cancellation",
+    "makeup": "One makeup per month offered",
+    "payment": "Monthly advance payment required",
+    "trial": "First trial session free (subject to availability)",
+    "attendance": "Minimum 70% attendance encouraged"
+  },
+  "certifications": ["ITF Certified Coaches", "Registered with Mumbai Tennis Association"],
+  "ratingBreakdown": {
+    "5": 80,
+    "4": 50,
+    "3": 10,
+    "2": 2,
+    "1": 0
+  },
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/leotennisacademy",
+    "instagram": "https://www.instagram.com/leotennisacademy",
+    "youtube": null
+  },
+  "awards": []
+}

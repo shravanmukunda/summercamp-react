@@ -3,6 +3,7 @@
   "name": "Mahalakshmi Layout Residents Forum Badminton Coaching",
   "type": "Sports Club / Coaching Center",
   "category": "sports",
+  "sports": ["Badminton"],
   "tagline": "Smash Excellence in Your Neighborhood",
   "rating": 4.4,
   "reviewCount": 170,

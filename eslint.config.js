@@ -7,7 +7,7 @@ import tsparser from '@typescript-eslint/parser'
 
 export default [
   {
-    ignores: ['dist/**/*', 'summercamp-react/**/*'],
+    ignores: ['dist/**/*', 'summercamp-react/**/*', 'vite.config.ts', '*.config.ts'],
   },
   {
     files: ['**/*.{js,jsx}'],

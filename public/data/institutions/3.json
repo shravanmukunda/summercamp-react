@@ -3,6 +3,7 @@
   "name": "Dr. Rajkumar Badminton Academy",
   "type": "Sports Academy",
   "category": "sports",
+  "sports": ["Badminton"],
   "tagline": "Master Your Game in Rajajinagar",
   "rating": 4.5,
   "reviewCount": 158,

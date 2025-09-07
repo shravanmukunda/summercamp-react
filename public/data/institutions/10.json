@@ -3,6 +3,7 @@
   "name": "SMS Cricket Academy",
   "type": "Sports Academy",
   "category": "sports",
+  "sports": ["Cricket"],
   "tagline": "Passion Meets Professionalism",
   "rating": 4.8,
   "reviewCount": 228,
