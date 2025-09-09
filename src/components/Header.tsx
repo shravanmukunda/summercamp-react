@@ -45,13 +45,19 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
           <img src="/logo.svg" alt="Logo" className="w-40 h-20 hover:scale-105 transition-transform duration-200" />
         </Link>
 
-        {/* CTA Button (Desktop) */}
-        <div className="hidden md:block">
+        {/* CTA Buttons (Desktop) */}
+        <div className="hidden md:flex items-center space-x-4">
           <Link
-            to="/add-institution"
+            to="/contact"
+            className="bg-white text-blue-600 border-2 border-blue-600 px-5 py-2 rounded-lg font-medium hover:bg-blue-50 hover:border-blue-700 hover:text-blue-700 transition-all duration-200"
+          >
+            Contact Us
+          </Link>
+          <Link
+            to="https://docs.google.com/forms/d/e/1FAIpQLSdUoUK7aMFgG6Ik0J63KndPcw9-KZe_Apv988v1tQP93ox0Fw/viewform?usp=header"
             className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2.5 rounded-lg font-medium hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-md hover:shadow-lg"
           >
-            List Your Institution
+            List Your Academy
           </Link>
         </div>
 
@@ -88,71 +94,6 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
         <div className="md:hidden border-t border-gray-200 py-4 bg-gray-50">
           <div className="flex flex-col space-y-3">
             <NavLink
-              to="/"
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-lg transition-colors duration-200 ${
-                  isActive
-                    ? 'bg-blue-100 text-blue-700 font-medium'
-                    : 'text-gray-700 hover:bg-white hover:text-blue-600'
-                }`
-              }
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Home
-            </NavLink>
-            <NavLink
-              to="/music"
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-lg transition-colors duration-200 ${
-                  isActive
-                    ? 'bg-blue-100 text-blue-700 font-medium'
-                    : 'text-gray-700 hover:bg-white hover:text-blue-600'
-                }`
-              }
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Music
-            </NavLink>
-            <NavLink
-              to="/art"
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-lg transition-colors duration-200 ${
-                  isActive
-                    ? 'bg-blue-100 text-blue-700 font-medium'
-                    : 'text-gray-700 hover:bg-white hover:text-blue-600'
-                }`
-              }
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Art
-            </NavLink>
-            <NavLink
-              to="/tuition"
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-lg transition-colors duration-200 ${
-                  isActive
-                    ? 'bg-blue-100 text-blue-700 font-medium'
-                    : 'text-gray-700 hover:bg-white hover:text-blue-600'
-                }`
-              }
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Tuition
-            </NavLink>
-            <NavLink
-              to="/dance"
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-lg transition-colors duration-200 ${
-                  isActive
-                    ? 'bg-blue-100 text-blue-700 font-medium'
-                    : 'text-gray-700 hover:bg-white hover:text-blue-600'
-                }`
-              }
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Dance
-            </NavLink>
-            <NavLink
               to="/contact"
               className={({ isActive }) =>
                 `px-4 py-2 rounded-lg transition-colors duration-200 ${
@@ -170,7 +111,7 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
               className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-3 rounded-lg text-center font-medium hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-md mx-2 mt-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              List Your Institution
+              List Your Academy
             </Link>
           </div>
         </div>

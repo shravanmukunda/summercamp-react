@@ -15,35 +15,23 @@ export const CATEGORIES: CategoryInfo[] = [
 ];
 
 export const CITIES: string[] = [
-  'Ahmedabad',
   'Bangalore',
   'Chennai',
   'Delhi',
-  'Hyderabad',
-  'Jaipur',
-  'Kolkata',
   'Lucknow',
   'Mumbai',
-  'Pune',
   'Others',
 ];
 
 export const SPORTS: string[] = [
   "Athletics",
   "Badminton",
-  "Baseball",
   "Basketball",
   "Boxing",
   "Cricket",
-  "Cycling",
-  "Esports",
   "Football",
-  "Golf",
   "Gymnastics",
-  "Hockey",
-  "Judo",
   "Karate",
-  "Rugby",
   "Swimming",
   "Table Tennis",
   "Tennis",

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import type { ComponentWithClassName } from '../types';
 
 interface FooterProps extends ComponentWithClassName {}
@@ -7,28 +8,28 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
     <footer className={`bg-gray-800 text-white py-8 ${className}`}>
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-start ml-2 mb-8">
-          <a href="packages.html">
-            <button className="bg-red-600 text-white font-roboto py-2 px-4 border-none rounded cursor-pointer mb-2">
-              List Your Camp
+          <Link to="/add-institution">
+            <button className="bg-blue-600 text-white font-roboto py-2 px-4 border-none rounded cursor-pointer mb-2">
+              List Your Academy
             </button>
-          </a>
-          <p>Promote Your Academy or Summer Camp by clicking the above Button!</p>
+          </Link>
+          <p>Promote Your Academy by clicking the above Button!</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-5">
           <div>
             <h2 className="text-xl mb-2 border-b-2 border-white inline-block">
-              Quick Links for Summer Camps
+              Quick Links for Academies
             </h2>
             <ul className="list-none p-0">
               <li className="my-2">
-                <a href="#" className="text-white hover:text-red-200 transition-colors">Home</a>
+                <Link to="/" className="text-white hover:text-red-200 transition-colors">Home</Link>
               </li>
               <li className="my-2">
-                <a href="contact.html" className="text-white hover:text-red-200 transition-colors">Contact</a>
+                <Link to="/contact" className="text-white hover:text-red-200 transition-colors">Contact</Link>
               </li>
               <li className="my-2">
-                <a href="blog.html" className="text-white hover:text-red-200 transition-colors">Read Our Blog</a>
+                <Link to="/" className="text-white hover:text-red-200 transition-colors">Read Our Blog</Link>
               </li>
             </ul>
           </div>
@@ -49,7 +50,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
         </div>
         
         <div className="ml-5 mt-8">
-          <h1>Best Summer Camps in Bangalore©</h1>
+          <h1>Best Academies in India</h1>
         </div>
       </div>
     </footer>
