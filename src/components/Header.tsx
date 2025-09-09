@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
       <nav className="flex items-center justify-between px-4 py-3">
         {/* Logo / Brand (optional placeholder) */}
         <Link to="/" className="text-xl font-bold text-gray-800">
-          <img src="/logo.svg" alt="Logo" className="w-40 h-20 hover:scale-105 transition-transform duration-200" />
+          <img src="/image.svg" alt="Logo" className="w-40 h-20 hover:scale-105 transition-transform duration-200" />
         </Link>
 
         {/* CTA Buttons (Desktop) */}
