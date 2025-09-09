@@ -8,7 +8,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
     <footer className={`bg-gray-800 text-white py-8 ${className}`}>
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-start ml-2 mb-8">
-          <Link to="/add-institution">
+          <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdUoUK7aMFgG6Ik0J63KndPcw9-KZe_Apv988v1tQP93ox0Fw/viewform?usp=header">
             <button className="bg-blue-600 text-white font-roboto py-2 px-4 border-none rounded cursor-pointer mb-2">
               List Your Academy
             </button>
