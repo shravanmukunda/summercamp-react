@@ -59,6 +59,12 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
           >
             List Your Academy
           </Link>
+          <Link
+            to="/packages"
+            className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-2.5 rounded-lg font-medium hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-md hover:shadow-lg"
+          >
+            Pricing
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -107,11 +113,18 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
               Contact
             </NavLink>
             <Link
-              to="/add-institution"
+              to="https://docs.google.com/forms/d/e/1FAIpQLSdUoUK7aMFgG6Ik0J63KndPcw9-KZe_Apv988v1tQP93ox0Fw/viewform"
               className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-3 rounded-lg text-center font-medium hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-md mx-2 mt-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               List Your Academy
+            </Link>
+            <Link
+              to="/packages"
+              className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-3 rounded-lg text-center font-medium hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-md mx-2 mt-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Pricing
             </Link>
           </div>
         </div>

@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import InstitutionDetailPage from './pages/InstitutionDetailPage';
+import Packages from './pages/Packages';
 
 const App: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const App: React.FC = () => {
             {/* static pages */}
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/packages" element={<Packages />} />
 
             {/* fallback */}
             <Route path="*" element={<Home />} />
