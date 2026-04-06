@@ -1,0 +1,102 @@
+export type InstitutionCategory = 'sports' | 'art' | 'tuition' | 'music';
+
+export interface Institution {
+  /** Backend uses string IDs (e.g. UUIDs). */
+  id: string | number;
+  name: string;
+  type: string;
+  category: InstitutionCategory;
+  sports?: string[];
+  city: string;
+  area: string;
+  rating: number;
+  reviewCount: number;
+  image: string;
+  tagline: string;
+  startingPrice: number;
+}
+
+export interface InstitutionMediaItem {
+  id: number;
+  kind: 'photo' | 'video';
+  url: string;
+  webpUrl: string | null;
+  videoPosterUrl: string | null;
+  videoPosterWebpUrl: string | null;
+}
+
+export interface InstitutionDetail extends Institution {
+  description?: string;
+  features?: string[];
+  schedule?: {
+    [key: string]: string;
+  };
+  contact?: {
+    phone?: string;
+    email?: string;
+    address?: string;
+    website?: string;
+  };
+  /** @deprecated use media + posterWebpUrl */
+  gallery?: string[];
+  posterUrl?: string | null;
+  posterWebpUrl?: string | null;
+  media?: InstitutionMediaItem[];
+  programs?: Program[];
+  instructors?: Instructor[];
+  facilities?: Facility[];
+  totalStudents?: number;
+  totalInstructors?: number;
+  established?: string;
+  achievements?: string[];
+  policies?: {
+    [key: string]: string;
+  };
+  sports?: string[];
+}
+
+export interface Program {
+  id: number;
+  name: string;
+  description: string;
+  duration: string;
+  price: number;
+  ageGroup: string;
+  level: 'Beginner' | 'Intermediate' | 'Advanced';
+}
+
+export interface Instructor {
+  name: string;
+  specialization: string;
+  experience: string;
+  qualification: string;
+  image?: string;
+  bio?: string;
+}
+
+export interface Facility {
+  name: string;
+  description?: string;
+  icon?: string;
+}
+
+export interface ApiResponse<T> {
+  data: T;
+  success: boolean;
+  message?: string;
+}
+
+export interface LoadingState {
+  loading: boolean;
+  error: string | null;
+}
+
+export interface SearchFilters {
+  category?: InstitutionCategory;
+  city?: string;
+  area?: string;
+  minRating?: number;
+  maxPrice?: number;
+  searchTerm?: string;
+  sportType?: string;
+}
